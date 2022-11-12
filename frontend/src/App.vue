@@ -38,6 +38,7 @@ export default {
 }
 .body-main {
   margin-top: 0px;
+  width: 100%;
   min-height: calc(100vh - 1vmax);
 }
 .body-footer {
