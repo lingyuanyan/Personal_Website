@@ -31,6 +31,7 @@ export default {
 
 .imageContainer {
     width: 50%;
+    @extend .d-flex;
     @extend .flex-column;
     @extend .justify-content-center;
 }
