@@ -4,20 +4,67 @@
         <div class="hobbiesBox">
             <div class="hobbiesRow">
                 <div class="hobbiesCol">
-                    <font-awesome-icon icon="fa-thin fa-gamepad-modern" />
-                    <p>col</p>
+                    <span class="hobbyIcon">
+                        <font-awesome-icon icon="fa-thin fa-gamepad-modern" />
+                    </span>
+                    <p style="margin-top: 0.25em;">Play games</p>
                 </div>
-                <div class="hobbiesCol">col</div>
-                <div class="hobbiesCol">col</div>
-                <div class="hobbiesCol">col</div>
-                <div class="hobbiesCol">col</div>
+                <div class="hobbiesCol">
+                    <span class="hobbyIcon">
+                        <font-awesome-icon icon="fa-thin fa-books" />
+                    </span>
+                    <p style="margin-top: 0.25em;">Read books</p>
+                </div>
+                <div class="hobbiesCol">
+                    <span class="hobbyIcon">
+                        <font-awesome-icon icon="fa-thin fa-camera-movie" />
+                    </span>
+                    <p style="margin-top: 0.25em;">Watch movies</p>
+                </div>
+                <div class="hobbiesCol">
+                    <span class="hobbyIcon">
+                        <font-awesome-icon icon="fa-thin fa-user-group" />
+                    </span>
+                    <p style="margin-top: 0.25em;">Play with friends</p>
+                </div>
+                <div class="hobbiesCol">
+                    <span class="hobbyIcon">
+                        <font-awesome-icon icon="fa-thin fa-music" />
+                    </span>
+                    <p style="margin-top: 0.25em;">Listen to music</p>
+                </div>
             </div>
             <div class="hobbiesRow">
-                <div class="hobbiesCol">col</div>
-                <div class="hobbiesCol">col</div>
-                <div class="hobbiesCol">col</div>
-                <div class="hobbiesCol">col</div>
-                <div class="hobbiesCol">col</div>
+                <div class="hobbiesCol">
+                    <span class="hobbyIcon">
+                        <font-awesome-icon icon="fa-thin fa-guitar" />
+                    </span>
+                    <p style="margin-top: 0.25em;">Play guitar</p>
+                </div>
+                <div class="hobbiesCol">
+                    <span class="hobbyIcon">
+                        <font-awesome-icon icon="fa-thin fa-bicycle" />
+                    </span>
+                    <p style="margin-top: 0.25em;">Ride bike</p>
+                </div>
+                <div class="hobbiesCol">
+                    <span class="hobbyIcon">
+                        <font-awesome-icon icon="fa-thin fa-dragon" />
+                    </span>
+                    <p style="margin-top: 0.25em;">Learn fansinating things</p>
+                </div>
+                <div class="hobbiesCol">
+                    <span class="hobbyIcon">
+                        <font-awesome-icon icon="fa-thin fa-person-skiing" />
+                    </span>
+                    <p style="margin-top: 0.25em;">Practice ski</p>
+                </div>
+                <div class="hobbiesCol">
+                    <span class="hobbyIcon">
+                        <font-awesome-icon icon="fa-thin fa-person-skiing" />
+                    </span>
+                    <p style="margin-top: 0.25em;">Draw pictures</p>
+                </div>
             </div>
         </div>
     </div>
@@ -89,7 +136,30 @@ export default {
 }
 
 .hobbyIcon {
-    width: 32;
-    height: 32;
+    font-size: 3em;
+    color: #1CB0F6;
+}
+
+.hobbyTitle {
+    /* Title4 | Bold */
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    /* identical to box height, or 180% */
+
+
+    /* Charcoal */
+
+    color: #222222;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 </style>
