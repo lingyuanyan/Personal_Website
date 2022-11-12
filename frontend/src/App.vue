@@ -1,25 +1,52 @@
 <template>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="app-body">
+    <header class="body-header">
+      <router-view name="header"></router-view>
+    </header>
+    <main class="body-main">
+      <router-view></router-view>
+    </main>
+    <footer class="body-footer">
+      <router-view name="footer"></router-view>
+    </footer>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
+  name: "App",
+  components: {},
+  computed: {},
+  methods: {},
+  created() {
   }
-}
+};
 </script>
-
-<style>
+<style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 0px;
+}
+.body-header {
+  width: 100%;
+  height: 5vmax;
+  background: $primary;
+}
+.body-main {
+  margin-top: 0px;
+  min-height: calc(100vh - 5vmax);
+}
+.body-footer {
+  width: 100%;
+  height: 5vmax;
+  background: $primary;
+}
+.app-body {
+  margin-top: 0px;
+  width: 100%;
 }
 </style>
