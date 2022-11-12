@@ -1,10 +1,20 @@
 <template>
     <div>
-        hello world
+        <about-me></about-me>
+        <favorite-books></favorite-books>
+        <my-hobbies></my-hobbies>
+        <my-projects></my-projects>
+        <photo-gallery></photo-gallery>
     </div>
 </template>
 
 <script>
+import AboutMe from '../components/AboutMe';
+import FavoriteBooks from '../components/FavoriteBooks';
+import MyHobbies from '../components/MyHobbies';
+import MyProjects from '../components/MyProjects';
+import PhotoGallery from '../components/PhotoGallery';
+
 export default {
     name: "FrontDoor",
     props: {},
@@ -14,7 +24,13 @@ export default {
         };
     },
 
-    components: {},
+    components: {
+        AboutMe,
+        FavoriteBooks,
+        MyHobbies,
+        MyProjects,
+        PhotoGallery
+    },
 
     created() { },
     mounted() {

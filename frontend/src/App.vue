@@ -42,7 +42,7 @@ export default {
 }
 .body-footer {
   width: 100%;
-  height: 1vmax;
+  height: 3vmax;
   background: #222222;
 }
 .app-body {
