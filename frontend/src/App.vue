@@ -33,17 +33,17 @@ export default {
 }
 .body-header {
   width: 100%;
-  height: 5vmax;
-  background: $primary;
+  height: 1vmax;
+  background: #1CB0F6;
 }
 .body-main {
   margin-top: 0px;
-  min-height: calc(100vh - 5vmax);
+  min-height: calc(100vh - 1vmax);
 }
 .body-footer {
   width: 100%;
-  height: 5vmax;
-  background: $primary;
+  height: 1vmax;
+  background: #222222;
 }
 .app-body {
   margin-top: 0px;

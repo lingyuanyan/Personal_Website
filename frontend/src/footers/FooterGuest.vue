@@ -1,6 +1,6 @@
 <template>
     <div>
-
+        <p>lingyuanyan@hotmail.com</p>
     </div>
 </template>
 <script>
