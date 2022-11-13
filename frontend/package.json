@@ -25,6 +25,7 @@
     "scss-loader": "^0.0.1",
     "vue": "^3.2.13",
     "vue-router": "^4.1.6",
+    "vue-scrollto": "^2.20.0",
     "vuex": "^4.0.2"
   },
   "devDependencies": {
