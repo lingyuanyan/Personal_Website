@@ -124,6 +124,7 @@ export default {
 
 .hobbiesBox {
     @extend .container;
+    @extend .mx-auto;
     width: 90%;
 }
 
