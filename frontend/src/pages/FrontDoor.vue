@@ -3,8 +3,8 @@
         <about-me></about-me>
         <my-hobbies></my-hobbies>
         <favorite-books></favorite-books>
-        <my-projects></my-projects>
         <photo-gallery></photo-gallery>
+        <my-projects></my-projects>
     </div>
 </template>
 
