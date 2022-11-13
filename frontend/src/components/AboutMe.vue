@@ -1,7 +1,7 @@
 <template>
     <div id="aboutMeSection" class="backContainer">
         <div class="imageContainer">
-            <img class="portrait" src="../assets/images/legos.jpg" alt="Lingyuan Yan" />
+            <img class="portrait" src="../assets/images/Headline.jpg" alt="Lingyuan Yan" />
         </div>
         <div class="textContainer">
             <p class="textHeader">Hi ! I am Lingyuan. Volutpat eu in elementum enim amet maecenas elit,
