@@ -142,6 +142,7 @@ export default {
 .navList {
     @extend .nav;
     @extend .flex-column;
+    @extend  .nav-pills;
 }
 
 .projectNavLink {
