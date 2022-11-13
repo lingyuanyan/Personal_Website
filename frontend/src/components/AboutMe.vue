@@ -1,5 +1,5 @@
 <template>
-    <div class="backContainer">
+    <div id="aboutMeSection" class="backContainer">
         <div class="imageContainer">
             <img class="portrait" src="../assets/images/legos.jpg" alt="Lingyuan Yan" />
         </div>

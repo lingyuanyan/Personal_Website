@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="footer">
         <p class="contact">lingyuanyan@hotmail.com</p>
         <p class="address">23286 NE 16th PL Sammamish WA 98074</p>
     </div>

@@ -1,5 +1,5 @@
 <template>
-    <div class="booksContainer">
+    <div id="favoriteBooksSection" class="booksContainer">
         <p class="booksTitle">Favorite Books</p>
         <div class="booksBox">
             <img class="book" src="../assets/images/books/Book1.jpg" />

@@ -1,5 +1,5 @@
 <template>
-    <div class="projectsContainer">
+    <div id="myProjectsSection" class="projectsContainer">
         <p class="projectsTitle">Projects and Achievements</p>
         <div class="projectBox">
             <div class="navContainer">

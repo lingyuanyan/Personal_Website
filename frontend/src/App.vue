@@ -33,7 +33,7 @@ export default {
 }
 .body-header {
   width: 100%;
-  height: 1vmax;
+  height: 5vmax;
   background: #1CB0F6;
 }
 .body-main {
@@ -43,7 +43,7 @@ export default {
 }
 .body-footer {
   width: 100%;
-  height: 3vmax;
+  height: 5vmax;
   background: #222222;
 }
 .app-body {

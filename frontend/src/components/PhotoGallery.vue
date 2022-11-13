@@ -1,5 +1,5 @@
 <template>
-    <div class="photosContainer">
+    <div id="photoGallerySection" class="photosContainer">
         <p class="photosTitle">Photo Gallary</p>
         <div class="photoBox">
             <div class="photoRow">

@@ -1,5 +1,5 @@
 <template>
-    <div class="hobbiesContainer">
+    <div id="myHobbiesSection" class="hobbiesContainer">
         <p class="hobbiesTitle">My Hobbies</p>
         <div class="hobbiesBox">
             <div class="hobbiesRow">
