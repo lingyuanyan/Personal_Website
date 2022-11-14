@@ -7,7 +7,7 @@
                     <span class="hobbyIcon">
                         <font-awesome-icon icon="fa-thin fa-gamepad-modern" />
                     </span>
-                    <p style="margin-top: 0.25em;">Play games</p>
+                    <p style="margin-top: 0.25em;">Playing games</p>
                 </div>
                 <div class="hobbiesCol">
                     <span class="hobbyIcon">
@@ -19,19 +19,19 @@
                     <span class="hobbyIcon">
                         <font-awesome-icon icon="fa-thin fa-camera-movie" />
                     </span>
-                    <p style="margin-top: 0.25em;">Watch movies</p>
+                    <p style="margin-top: 0.25em;">Watching movies</p>
                 </div>
                 <div class="hobbiesCol">
                     <span class="hobbyIcon">
                         <font-awesome-icon icon="fa-thin fa-user-group" />
                     </span>
-                    <p style="margin-top: 0.25em;">Play with friends</p>
+                    <p style="margin-top: 0.25em;">Playing with friends</p>
                 </div>
                 <div class="hobbiesCol">
                     <span class="hobbyIcon">
                         <font-awesome-icon icon="fa-thin fa-music" />
                     </span>
-                    <p style="margin-top: 0.25em;">Listen to music</p>
+                    <p style="margin-top: 0.25em;">Listening to music</p>
                 </div>
             </div>
             <div class="hobbiesRow">
@@ -39,31 +39,31 @@
                     <span class="hobbyIcon">
                         <font-awesome-icon icon="fa-thin fa-guitar" />
                     </span>
-                    <p style="margin-top: 0.25em;">Play guitar</p>
+                    <p style="margin-top: 0.25em;">Playing guitar</p>
                 </div>
                 <div class="hobbiesCol">
                     <span class="hobbyIcon">
                         <font-awesome-icon icon="fa-thin fa-bicycle" />
                     </span>
-                    <p style="margin-top: 0.25em;">Ride bike</p>
+                    <p style="margin-top: 0.25em;">Riding bikes</p>
                 </div>
                 <div class="hobbiesCol">
                     <span class="hobbyIcon">
                         <font-awesome-icon icon="fa-thin fa-dragon" />
                     </span>
-                    <p style="margin-top: 0.25em;">Learn fansinating things</p>
+                    <p style="margin-top: 0.25em;">Learn fascinating things</p>
                 </div>
                 <div class="hobbiesCol">
                     <span class="hobbyIcon">
                         <font-awesome-icon icon="fa-thin fa-person-skiing" />
                     </span>
-                    <p style="margin-top: 0.25em;">Practice ski</p>
+                    <p style="margin-top: 0.25em;">Skiing</p>
                 </div>
                 <div class="hobbiesCol">
                     <span class="hobbyIcon">
-                        <font-awesome-icon icon="fa-thin fa-person-skiing" />
+                        <font-awesome-icon icon="fa-thin fa-circle-plus" />
                     </span>
-                    <p style="margin-top: 0.25em;">Draw pictures</p>
+                    <p style="margin-top: 0.25em;">And more</p>
                 </div>
             </div>
         </div>

@@ -4,10 +4,11 @@
             <img class="portrait" src="../assets/images/Headline.jpg" alt="Lingyuan Yan" />
         </div>
         <div class="textContainer">
-            <p class="textHeader">Hi ! I am Lingyuan. Volutpat eu in elementum enim amet maecenas elit,
-                facilisis !</p>
-            <p class="textDetails">I am curiostiy and passionate about many things, quis nostrud exercitation ullamco
-                laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p class="textHeader">My name is Lingyuan Yan. Welcome to my Website!</p>
+            <p class="textDetails">I am currently an 8th grader that lives in Washington State of the United States of America. Not only am I a student that loves learning, I am also a computer programmer, a passionate guitarist, and someone who loves sports.</p>
+        </div>
+        <div>       
+
         </div>
     </div>
 </template>
@@ -23,10 +24,26 @@ export default {
 
 <style scoped lang="scss">
 .backContainer {
-    width: 100%;
-    @extend .d-flex;
-    @extend .justify-content-center;
-    background: #1CB0F6;
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 156px 68px;
+gap: 160px;
+
+width: 1512px;
+height: 525px;
+
+/* Blue */
+
+background: #1CB0F6;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
 }
 
 .imageContainer {
@@ -37,8 +54,8 @@ export default {
 }
 
 .portrait {
-    width: 457px;
-    height: 457px;
+    width:450px;
+    height: 450px;
     @extend .rounded-circle;
 
     /* White */

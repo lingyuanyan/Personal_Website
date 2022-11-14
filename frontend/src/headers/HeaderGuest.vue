@@ -2,10 +2,8 @@
     <div class="linkBox">
         <router-link class="routerLink" to="#" v-scroll-to="'#aboutMeSection'">About Me</router-link>
         <router-link class="routerLink" to="#" v-scroll-to="'#favoriteBooksSection'">My Hobbies</router-link>
-        <router-link class="routerLink" to="#" v-scroll-to="'#favoriteBooksSection'">Favorite Books</router-link>
         <router-link class="routerLink" to="#" v-scroll-to="'#photoGallerySection'">Photo Gallery</router-link>
-        <router-link class="routerLink" to="#" v-scroll-to="'#myProjectsSection'">Projects and Achievements</router-link>
-        <router-link class="routerLink" to="#" v-scroll-to="'#footer'">Contacts </router-link>
+        <router-link class="routerLink" to="#" v-scroll-to="'#myProjectsSection'">Projects & Acheivements</router-link>
     </div>
 </template>
 <script>
@@ -23,15 +21,17 @@ export default {
     @extend .d-flex;
     @extend .justify-content-end;
 }
-.routerLink {
+a {
 
     /* Title3 | Black */
 
     font-family: 'Nunito';
     font-style: normal;
-    font-weight: 900;
-    font-size: 24px;
+    font-weight: 200;
+    font-size: 21px;
     line-height: 36px;
+    text-decoration: none;
+    
 
     /* identical to box height, or 150% */
     text-align: center;
@@ -47,5 +47,8 @@ export default {
     flex: none;
     order: 0;
     flex-grow: 0;
+}
+a:hover {
+    color: #2B70C9;
 }
 </style>

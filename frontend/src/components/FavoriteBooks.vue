@@ -2,13 +2,13 @@
     <div id="favoriteBooksSection" class="booksContainer">
         <p class="booksTitle">Favorite Books</p>
         <div class="booksBox">
-            <img class="book" src="../assets/images/books/Book1.jpg" />
-            <img class="book" src="../assets/images/books/Book1.jpg" />
-            <img class="book" src="../assets/images/books/Book1.jpg" />
-            <img class="book" src="../assets/images/books/Book1.jpg" />
-            <img class="book" src="../assets/images/books/Book1.jpg" />
-            <img class="book" src="../assets/images/books/Book1.jpg" />
-            <img class="book" src="../assets/images/books/Book1.jpg" />
+            <img class="book" src="../assets/images/books/LittleWomenCover.jpg" />
+            <img class="book" src="../assets/images/books/NevermoorCover.jpg" />
+            <img class="book" src="../assets/images/books/TheLittlePrince.jpg" />
+            <img class="book" src="../assets/images/books/SecretSoldiersCover.jpg" />
+            <img class="book" src="../assets/images/books/Unbroken.jpg" />
+            <img class="book" src="../assets/images/books/WheretheMountainMeetstheMoonCover.jpg" />
+            <img class="book" src="../assets/images/books/TheOldManAndTheSea.jpg" />
         </div>
     </div>
 </template>
