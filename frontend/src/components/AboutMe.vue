@@ -31,7 +31,7 @@ align-items: center;
 padding: 0px 156px 68px;
 gap: 160px;
 
-width: 1512px;
+width: 100%;
 height: 525px;
 
 /* Blue */
