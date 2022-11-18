@@ -18,54 +18,39 @@
                     </li>
                     <li class="nav-item">
                         <span ref="projectNavLinkId4" class="projectNavLink" :class="{ active: showProject4 }"
-                            @click="onNavClick(4, $event)">CTEF Art Contest Awards</span>
+                            @click="onNavClick(4, $event)">Art Contest Awards</span>
+                    </li>
+                    <li class="nav-item">
+                        <span ref="projectNavLinkId5" class="projectNavLink" :class="{ active: showProject5 }"
+                            @click="onNavClick(5, $event)">Volunteering Awards</span>
                     </li>
                 </ul>
             </div>
             <div class="projectList">
                 <div id="project2" class="projectFrame" v-if="showProject1">
-                    <img class="projectImage" src='../assets/images/projects/usacoPic.jpg' />
+                    <img class="projectImage" src='../assets/images/projects/usacoPic.jpg' loading=lazy/>
                     <p class="projectTitle">Qualifying for the USACO Bronze</p>
-                    <p class="projectDescription">USACO, or United States of America Coding Olympiad is one of the 
-                        most prestigest and difficult coding competitions in the world, and passing into its bronze
-                        division maybe one of my proudest acheivments yet. After I started doing Competetive 
-                        Programming in my sixth, I knew it was a hard competition and in my early attempts I scored 
-                        horrendously. I knew this a contest designed at the high school or even college level so I 
-                        wasn't suprised I'd failed. Still, I really wanted to pass, leading me to dedicating many 
-                        hours each day to practicing do I could attempt this competition again the year after. 
-                        After alot of work and practice, I was able to not only pass the Bronze division, but also 
-                        excel in the top 15% of 5000 participants. Not only that, but me being a seventh grader 
-                        score over many potential high schoolers, college students, and adults only makes this 
-                        more and more of a impressive feat for me. As I am writing this in 2022, I look to seeing 
-                        how I will do in this year's competition as I challenge the ever more difficult silver 
-                        division.
+                    <p class="projectDescription">
+                        In my sixth grade, I learned about a popular competitive programming competition called USACO, or United States of America Coding Olympiad. It is known to be one of the best and most difficult coding competitions and was mainly designed for students that were high schools or higher. The way Usaco Works is that It is split into four divisions, Bronze, Silver, gold and Platinum that each increased in difficulty. Even though Bronze is only the first division, it is still very difficult, especially since USACO was not designed at a middle school level. At the beginning, I was still inexperienced since I had only just learnt how to code. In fact, the first time I tried, I failed horrendously. After that, I spent significant time practicing with problems from their past contests and after several months I was finally about to qualify for USACO Bronze in my 7th grade. Not only that, I passed in the top 15% in that competition, beating about 3400 people. Currently, I am studying under a brilliant instructor who is helping me prepare for the next competition in December where I to be able to qualify for the Silver division this time as an 8th grader.
                     </p>
                 </div>
  
                 <div id="project1" class="projectFrame" v-if="showProject2">
                     <img class="projectImage" src='../assets/images/projects/TurtleMaster_Logo.png' />
                     <p class="projectTitle">TurtleMaster Club</p>
-                    <p class="projectDescription">When I was in 6th grade, I had just finished learning coding and 
-                        Computer Science and wanted to do something impactful that was also related to my new-found
-                        skill. This lead me to starting a brand new club in my community called TurtleMasters Club.
-                        Through this club, I was able to meet and recruit other children also intrested in Programming.
-                        Together, we would work on many projects like making websites or even making games if we wanted.
-                        These projects included:
+                    <p class="projectDescription">
+                        When I was in 6th grade, I had just finished learning coding and Computer Science and wanted to do something impactful that was also related to my new-found skill. This led me to founding a brand-new club in my community called TurtleMasters Club. Through this club, I was able to meet and recruit other children also interested in Programming. Together, we would work on many projects like making websites or even making games if we wanted. These projects included:
                         <ul>
-                            <li>Making a website called covidhub.io that gave current information about the panemic and COVID-19</li>
+                            <li>Making a website called covidhub.io that gave current information about the pandemic and COVID-19</li>
                             <li>Making a website for a volunteer group called FurFriendsRescue that helped and rescued stray dogs</li>
-                            <li>Recreated the popular game minesweeper without using game engines or other libraries.</li>
+                            <li>Recreated the popular game minesweeper using basic programming languages</li>
                         </ul>
                     </p>
                 </div>
                 <div id="project3" class="projectFrame" v-if="showProject3">
                     <img class="projectImage" src='../assets/images/projects/CoursePic.jpeg' />
                     <p class="projectTitle">Learning From Online Courses</p>
-                    <p class="projectDescription">At the beginning of my Programming expierience I started out learning Programming
-                        skills and languages from online courses created by professors from many prestigous colleges likes Princeton
-                        University or the University of Michigan. From these courses I learned a variety of things ranging from basic
-                        programming skills to website design and development to complex algorithms or data structures used in computer 
-                        science. These courses include:
+                    <p class="projectDescription">At the beginning of my Programming experience, I started out learning Programming skills and languages from online courses created by professors from many prestigious colleges like Princeton University or the University of Michigan. From these courses I learned a variety of things ranging from basic programming skills to website design and development to complex algorithms or data structures used in computer science. These courses include:
                     </p>
                     <ul>
                         <li><a href="https://www.coursera.org/specializations/python?">Python for Everybody</a></li>
@@ -75,25 +60,30 @@
                         <li><a href="https://www.coursera.org/learn/algorithms-part1">Algorithms, Part I</a></li>
                         <li><a href="https://www.coursera.org/learn/algorithms-part2">Algorithms, Part II</a></li>
                     </ul>
-                    <p class="projectDescription">
-                        All these courses were especially well made and I am very thankful to have been fortunate enough to access to 
-                        wonderful resources like these. I am able to use the skills I learned from these courses constantly throughout 
-                        my life in way like making this website for example or everyday when practicing for USACO.
+                    <p class="projectDescription">All these courses were especially well made, and I am very thankful to have been fortunate enough to access wonderful resources like these. I was able to use the skills I learned from these courses constantly throughout my life in way like when I made this website or every day when practicing for USACO.
                     </p>
                 </div>
                 <div id="project4" class="projectFrame" v-if="showProject4">
                     <img class="projectImage" src='../assets/images/projects/Drawing.png' />
                     <p class="projectTitle">Art Contest Awards</p>
                     <p class="projectDescription">
-                        One of my greatest passions since a very young age has always been in the Arts. I have been taking art lessons 
-                        at a place called YongLi Art Studio since first grade and has always loved drawing, painting, or even just 
-                        doodling when I have nothing better to do. one of the great things about my art teacher is that she would 
-                        encourage us to submit our pieces into art competitions, especially at an art competition she supported called
-                        the CTEF Art Contest. I myself have submitted many art pieces there and have even ended up winning some awards.
-                        For example, I  was awarded with the Award of Excellence in both 2015 and 2016 but also acheived 3rd place in 
-                        the 2019 CTEF competition of which I am very proud. Outside of CTEF competitions, I also once submitted an art 
-                        piece to my elementary school art contest called the Smith Reflections Contest and was able to earn Honorable 
-                        Mentions there as well. 
+                        One of my greatest passions since a very young age has always been in the Arts. I have been taking art lessons at a place called YongLi Art Studio since first grade and have always loved sketching, painting, or even just doodling when I have nothing better to do. One of the great things about my art teacher is that she taught us a variety of art skills from acrylic to watercolor to sketching and would also encourage us to submit our pieces into art competitions, especially at an art competition she supported called the CTEF Art Contest. I myself have submitted many art pieces there and have even ended up winning several awards. For example, I was awarded with the Award of Excellence in both 2015 and 2016 but also achieved 3rd place in the 2019 CTEF competition. Outside of CTEF competitions, I also once submitted an art piece to my elementary school art contest called the Smith Reflections Contest and was able to win Honorable Mentions there as well.
+                    </p>
+                </div>
+                <div id="project5" class="projectFrame" v-if="showProject5">
+                    <img class="projectImage" src='../assets/images/projects/Drawing.png' />
+                    <p class="projectTitle">Volunteering Awards</p>
+                    <p class="projectDescription">
+                        Not only do I love things like Computer Science or Art, but I also love helping others, which is one of the reasons I started volunteering. I loved being able to help other people and animals. I volunteered at numerous places and communities but the group I volunteer the most in is a group called Little Masters Club which is a group of other Chinese immigrant families that lived in our area. In the club I would participate in their numerous programs that include:
+                    </p>
+                    <ul>
+                        <li>Online Reading where I taught weekly English to children in China weekly.</li>
+                        <li>FurFriends Rescue, a group that helps stray animals find homes and raises money. There I helped volunteer in their numerous events but also used my expertise to help them make their website.</li>
+                        <li>Shanxi Education Support where I went to a small rural village in China and taught English and science as an Assistant Teacher.</li>
+                        <li>Little Masters Club Summer Camp where I taught a class about programming using the java programing language.</li>
+                    </ul>
+                    <p class="projectDescription">
+                        Outside of Little Masters Club I also volunteered at several places like with an organization called Footprints that helped, saved, and nurtured injured wildlife in my local area, or simply at my school.
                     </p>
                 </div>
             </div>
@@ -108,6 +98,7 @@ export default {
             showProject2: false,
             showProject3: false,
             showProject4: false,
+            showProject5: false,
         }
     },
     components: {},
@@ -119,12 +110,14 @@ export default {
             this.showProject2 = false;
             this.showProject3 = false;
             this.showProject4 = false;
+            this.showProject5 = false;
 
             switch (index) {
                 case 1: this.showProject1 = true; return;
                 case 2: this.showProject2 = true; return;
                 case 3: this.showProject3 = true; return;
                 case 4: this.showProject4 = true; return;
+                case 5: this.showProject5 = true; return;
             }
         }
     },
