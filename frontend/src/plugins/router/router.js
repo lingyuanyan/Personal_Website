@@ -8,11 +8,10 @@ import FooterGuest from "../../footers/FooterGuest"
 const router = createRouter({
     history: createWebHistory(),
     routes: [
-        { path: '/', redirect: '/front-door' },
         // guest
         {
             name: 'front-door',
-            path: '/front-door',
+            path: '/',
             meta: {
                 title: 'Lingyuan\'s personal webpage',
                 requiredRoles: [userRoleEnum.NONE],
