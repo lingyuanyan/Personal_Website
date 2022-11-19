@@ -61,33 +61,33 @@
                 </div>
                 <div class="hobbiesCol" @click="showPopUp10 = true">
                     <span class="hobbyIcon">
-                        <font-awesome-icon icon="fa-thin fa-circle-plus"/>
+                        <font-awesome-icon icon="fa-thin fa-circle-plus" />
                     </span>
                     <p style="margin-top: 0.25em;">And more</p>
                 </div>
 
-                <div class="popUp" v-show="showPopUp1" @click="showPopUp1 = false">
-                    <div class = "card">
-                        <div class ="xWrapper">
+                <div class="popUp" v-show="showPopUp1" @click.self="showPopUp1 = false">
+                    <div class="card">
+                        <div class="xWrapper">
                             <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
-                            <div class = "yWrapper">
-                                <div class="closeWrapper" >
-                                    <i class="fa-solid fa-xmark"></i>                                
+                            <div class="yWrapper">
+                                <div class="closeWrapper">
+                                    <i class="fa-solid fa-xmark"></i>
                                 </div>
                                 <h3>I love Drawing</h3>
                                 <p>biking is fun porque it is fun</p>
                             </div>
                         </div>
                     </div>
-                    <p >>click anywhere to close popup</p>
+                    <p>>click anywhere to close popup</p>
                 </div>
-                <div class="popUp" v-show="showPopUp2" @click="showPopUp2 = false">
-                    <div class = "card">
-                        <div class ="xWrapper">
+                <div class="popUp" v-show="showPopUp2" @click.self="showPopUp2 = false">
+                    <div class="card">
+                        <div class="xWrapper">
                             <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
-                            <div class = "yWrapper">
-                                <div class="closeWrapper" >
-                                    <i class="fa-solid fa-xmark"></i>                                
+                            <div class="yWrapper">
+                                <div class="closeWrapper">
+                                    <i class="fa-solid fa-xmark"></i>
                                 </div>
                                 <div class="whiteSpace">
 
@@ -98,13 +98,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="popUp" v-show="showPopUp3" @click="showPopUp3 = false">
-                    <div class = "card">
-                        <div class ="xWrapper">
+                <div class="popUp" v-show="showPopUp3" @click.self="showPopUp3 = false">
+                    <div class="card">
+                        <div class="xWrapper">
                             <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
-                            <div class = "yWrapper">
-                                <div class="closeWrapper" >
-                                    <i class="fa-solid fa-xmark"></i>                                
+                            <div class="yWrapper">
+                                <div class="closeWrapper">
+                                    <i class="fa-solid fa-xmark"></i>
                                 </div>
                                 <div class="whiteSpace">
 
@@ -115,13 +115,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="popUp" v-show="showPopUp4" @click="showPopUp4 = false">
-                    <div class = "card">
-                        <div class ="xWrapper">
+                <div class="popUp" v-show="showPopUp4" @click.self="showPopUp4 = false">
+                    <div class="card">
+                        <div class="xWrapper">
                             <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
-                            <div class = "yWrapper">
-                                <div class="closeWrapper" >
-                                    <i class="fa-solid fa-xmark"></i>                                
+                            <div class="yWrapper">
+                                <div class="closeWrapper">
+                                    <i class="fa-solid fa-xmark"></i>
                                 </div>
                                 <div class="whiteSpace">
 
@@ -132,13 +132,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="popUp" v-show="showPopUp5" @click="showPopUp5 = false">
-                    <div class = "card">
-                        <div class ="xWrapper">
+                <div class="popUp" v-show="showPopUp5" @click.self="showPopUp5 = false">
+                    <div class="card">
+                        <div class="xWrapper">
                             <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
-                            <div class = "yWrapper">
-                                <div class="closeWrapper" >
-                                    <i class="fa-solid fa-xmark"></i>                                
+                            <div class="yWrapper">
+                                <div class="closeWrapper">
+                                    <i class="fa-solid fa-xmark"></i>
                                 </div>
                                 <div class="whiteSpace">
 
@@ -149,13 +149,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="popUp" v-show="showPopUp6" @click="showPopUp6 = false">
-                    <div class = "card">
-                        <div class ="xWrapper">
+                <div class="popUp" v-show="showPopUp6" @click.self="showPopUp6 = false">
+                    <div class="card">
+                        <div class="xWrapper">
                             <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
-                            <div class = "yWrapper">
-                                <div class="closeWrapper" >
-                                    <i class="fa-solid fa-xmark"></i>                                
+                            <div class="yWrapper">
+                                <div class="closeWrapper">
+                                    <i class="fa-solid fa-xmark"></i>
                                 </div>
                                 <div class="whiteSpace">
 
@@ -166,13 +166,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="popUp" v-show="showPopUp7" @click="showPopUp7 = false">
-                    <div class = "card">
-                        <div class ="xWrapper">
+                <div class="popUp" v-show="showPopUp7" @click.self="showPopUp7 = false">
+                    <div class="card">
+                        <div class="xWrapper">
                             <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
-                            <div class = "yWrapper">
-                                <div class="closeWrapper" >
-                                    <i class="fa-solid fa-xmark"></i>                                
+                            <div class="yWrapper">
+                                <div class="closeWrapper">
+                                    <i class="fa-solid fa-xmark"></i>
                                 </div>
                                 <div class="whiteSpace">
 
@@ -183,13 +183,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="popUp" v-show="showPopUp8" @click="showPopUp8 = false">
-                    <div class = "card">
-                        <div class ="xWrapper">
+                <div class="popUp" v-show="showPopUp8" @click.self="showPopUp8 = false">
+                    <div class="card">
+                        <div class="xWrapper">
                             <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
-                            <div class = "yWrapper">
-                                <div class="closeWrapper" >
-                                    <i class="fa-solid fa-xmark"></i>                                
+                            <div class="yWrapper">
+                                <div class="closeWrapper">
+                                    <i class="fa-solid fa-xmark"></i>
                                 </div>
                                 <div class="whiteSpace">
 
@@ -200,13 +200,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="popUp" v-show="showPopUp9" @click="showPopUp9 = false">
-                    <div class = "card">
-                        <div class ="xWrapper">
+                <div class="popUp" v-show="showPopUp9" @click.self="showPopUp9 = false">
+                    <div class="card">
+                        <div class="xWrapper">
                             <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
-                            <div class = "yWrapper">
-                                <div class="closeWrapper" >
-                                    <i class="fa-solid fa-xmark"></i>                                
+                            <div class="yWrapper">
+                                <div class="closeWrapper">
+                                    <i class="fa-solid fa-xmark"></i>
                                 </div>
                                 <div class="whiteSpace">
 
@@ -217,13 +217,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="popUp" v-show="showPopUp10" @click="showPopUp10 = false">
-                    <div class = "card">
-                        <div class ="xWrapper">
+                <div class="popUp" v-show="showPopUp10" @click.self="showPopUp10 = false">
+                    <div class="card">
+                        <div class="xWrapper">
                             <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
-                            <div class = "yWrapper">
-                                <div class="closeWrapper" >
-                                    <i class="fa-solid fa-xmark"></i>                                
+                            <div class="yWrapper">
+                                <div class="closeWrapper">
+                                    <i class="fa-solid fa-xmark"></i>
                                 </div>
                                 <div class="whiteSpace">
 
@@ -300,6 +300,7 @@ export default {
     order: 1;
     flex-grow: 1;
 }
+
 h4 {
     width: 208px;
     height: 36px;
@@ -313,6 +314,7 @@ h4 {
     order: 2;
     flex-grow: 0;
 }
+
 .closeWrapper {
     display: flex;
     flex-direction: row;
@@ -327,6 +329,7 @@ h4 {
     align-self: stretch;
     flex-grow: 0;
 }
+
 .yWrapper {
     justify-content: center;
     align-items: center;
@@ -341,6 +344,7 @@ h4 {
     align-self: stretch;
     flex-grow: 0;
 }
+
 .popUpImg {
     width: 354px;
     height: 425px;
@@ -350,7 +354,8 @@ h4 {
     order: 0;
     flex-grow: 0;
 }
-.xWrapper{
+
+.xWrapper {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -362,6 +367,7 @@ h4 {
     order: 0;
     flex-grow: 0;
 }
+
 .card {
     display: flex;
     flex-direction: row;
@@ -377,23 +383,25 @@ h4 {
     background: #FFFFFF;
     box-shadow: 2px 2px 23px rgba(0, 0, 0, 0.1);
     border-radius: 16px;
-    position:fixed;
-    
+    position: fixed;
+
 }
+
 .popUp {
     display: flex;
-  justify-content: center;
-  align-items: center;
+    justify-content: center;
+    align-items: center;
     z-index: 50;
-    position: fixed ;
+    position: fixed;
     width: 100vw;
     height: 100vh;
     left: 0px;
     top: 0px;
     text-align: center;
     background: #222222;
-    opacity: 0.8;
+    opacity: 1.0;
 }
+
 .hobbiesContainer {
     width: 100%;
     @extend .d-flex;
@@ -434,18 +442,22 @@ h4 {
     @extend .col;
     color: #1CB0F6;
 }
+
 p {
     text-decoration: none;
     color: inherit;
 }
+
 .hobbyIcon {
     font-size: 3em;
     color: inherit;
 }
-a{
+
+a {
     color: inherit;
     text-decoration: none;
 }
+
 .hobbiesCol:hover {
     color: #2B70C9;
 }
