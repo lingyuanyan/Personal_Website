@@ -1,6 +1,6 @@
 <template>
     <div id="myHobbiesSection" class="hobbiesContainer">
-        <p class="hobbiesTitle">My Hobbies</p>
+        <p class="hobbiesTitle">My Intrests</p>
         <div class="hobbiesBox">
             <div class="hobbiesRow">
                 <div class="hobbiesCol">

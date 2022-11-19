@@ -28,10 +28,10 @@
             </div>
             <div class="projectList">
                 <div id="project2" class="projectFrame" v-if="showProject1">
-                    <img class="projectImage" src='../assets/images/projects/usacoPic.jpg' loading=lazy/>
+                    <img class="projectImage" src='../assets/images/projects/usacoPic.jpeg' loading=lazy/>
                     <p class="projectTitle">Qualifying for the USACO Bronze</p>
                     <p class="projectDescription">
-                        In my sixth grade, I learned about a popular competitive programming competition called USACO, or United States of America Coding Olympiad. It is known to be one of the best and most difficult coding competitions and was mainly designed for students that were high schools or higher. The way Usaco Works is that It is split into four divisions, Bronze, Silver, gold and Platinum that each increased in difficulty. Even though Bronze is only the first division, it is still very difficult, especially since USACO was not designed at a middle school level. At the beginning, I was still inexperienced since I had only just learnt how to code. In fact, the first time I tried, I failed horrendously. After that, I spent significant time practicing with problems from their past contests and after several months I was finally about to qualify for USACO Bronze in my 7th grade. Not only that, I passed in the top 15% in that competition, beating about 3400 people. Currently, I am studying under a brilliant instructor who is helping me prepare for the next competition in December where I to be able to qualify for the Silver division this time as an 8th grader.
+                        In sixth grade, I learned about a popular competitive programming competition called USACO, or United States of America Coding Olympiad. It is known to be one of the best and most difficult coding competitions and was mainly designed for students that were high schools or higher. The way Usaco Works is that It is split into four divisions, Bronze, Silver, gold and Platinum that each increased in difficulty. Even though Bronze is only the first division, it is still very difficult, especially since USACO was not designed at a middle school level. At the beginning, I was still inexperienced since I had only just learnt how to code. In fact, the first time I tried, I failed horrendously. After that, I spent significant time practicing with problems from their past contests and after several months I was finally about to qualify for USACO Bronze in my 7th grade. Not only that, I passed in the top 15% in that competition, beating about 3400 people. Currently, I am studying under a brilliant instructor who is helping me prepare for the next competition in December where I to be able to qualify for the Silver division this time as an 8th grader.
                     </p>
                 </div>
  
@@ -72,10 +72,9 @@
                 </div>
                 <div id="project5" class="projectFrame" v-if="showProject5">
                     <img class="projectImage" src='../assets/images/projects/Drawing.png' />
-                    <p class="projectTitle">Volunteering Awards</p>
+                    <p class="projectTitle">Volunteering</p>
                     <p class="projectDescription">
-                        Not only do I love things like Computer Science or Art, but I also love helping others, which is one of the reasons I started volunteering. I loved being able to help other people and animals. I volunteered at numerous places and communities but the group I volunteer the most in is a group called Little Masters Club which is a group of other Chinese immigrant families that lived in our area. In the club I would participate in their numerous programs that include:
-                    </p>
+                        In my free time, I like to volunteer at places to help other people or animals. I have volunteered at numerous places and communities over the years but the group I volunteer the most in is a group called Little Masters Club, which is a local community of other Chinese families that lived in our area. In the club I would participate in their numerous programs that include:                    </p>
                     <ul>
                         <li>Online Reading where I taught weekly English to children in China weekly.</li>
                         <li>FurFriends Rescue, a group that helps stray animals find homes and raises money. There I helped volunteer in their numerous events but also used my expertise to help them make their website.</li>

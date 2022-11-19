@@ -1,11 +1,11 @@
 <template>
     <div id="aboutMeSection" class="backContainer">
         <div class="imageContainer">
-            <img class="portrait" src="../assets/images/Headline.jpg" alt="Lingyuan Yan" />
+            <img class="portrait" src="../assets/images/LingyuanPortraitSmaller.jpg" alt="Lingyuan Yan" />
         </div>
         <div class="textContainer">
             <p class="textHeader">My name is Lingyuan Yan. Welcome to my Website!</p>
-            <p class="textDetails">I am currently an 8th grader that lives in Washington State of the United States of America. Not only am I a student that loves learning, I am also a computer programmer, a passionate guitarist, and someone who loves sports.</p>
+            <p class="textDetails">I am currently an 8th grader that lives in Washington State. Not only am I a student that loves learning, I am also a computer programmer, a passionate guitarist, and someone who loves sports.</p>
         </div>
         <div>       
 
