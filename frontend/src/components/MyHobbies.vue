@@ -7,13 +7,13 @@
                     <span class="hobbyIcon">
                         <font-awesome-icon icon="fa-thin fa-gamepad-modern" />
                     </span>
-                    <p style="margin-top: 0.25em;">Playing games</p>
+                    <p style="margin-top: 0.25em;">Reading Books</p>
                 </div>
                 <div class="hobbiesCol">
                     <span class="hobbyIcon">
                         <font-awesome-icon icon="fa-thin fa-books" />
                     </span>
-                    <p style="margin-top: 0.25em;">Read books</p>
+                    <p style="margin-top: 0.25em;">Drawing</p>
                 </div>
                 <div class="hobbiesCol">
                     <span class="hobbyIcon">
@@ -61,7 +61,7 @@
                 </div>
                 <div class="hobbiesCol">
                     <span class="hobbyIcon">
-                        <font-awesome-icon icon="fa-thin fa-circle-plus" />
+                        <a href="ssat.com"> <font-awesome-icon icon="fa-thin fa-circle-plus"/></a>
                     </span>
                     <p style="margin-top: 0.25em;">And more</p>
                 </div>

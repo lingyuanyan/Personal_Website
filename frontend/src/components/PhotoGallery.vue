@@ -1,6 +1,6 @@
 <template>
     <div id="photoGallerySection" class="photosContainer">
-        <p class="photosTitle">Photo Gallary</p>
+        <p class="photosTitle">Photo Gallery</p>
         <div class="photoBox">
             <div class="photoRow">
                 <div class="photoCol"> <img class="photoImage" src="../assets/images/gallery/Dandelions.jpg" />

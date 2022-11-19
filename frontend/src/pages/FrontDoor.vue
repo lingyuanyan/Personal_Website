@@ -1,10 +1,11 @@
 <template>
     <div>
         <about-me></about-me>
+        <my-projects></my-projects>
         <my-hobbies></my-hobbies>
         <favorite-books></favorite-books>
         <photo-gallery></photo-gallery>
-        <my-projects></my-projects>
+
     </div>
 </template>
 

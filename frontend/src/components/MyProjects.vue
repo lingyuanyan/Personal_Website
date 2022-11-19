@@ -1,6 +1,6 @@
 <template>
     <div id="myProjectsSection" class="projectsContainer">
-        <p class="projectsTitle">Projects and Achievements</p>
+        <p class="projectsTitle">Projects and Acheivements</p>
         <div class="projectBox">
             <div class="navContainer">
                 <ul class="navList">
@@ -31,7 +31,7 @@
                     <img class="projectImage" src='../assets/images/projects/usacoPic.jpeg' loading=lazy/>
                     <p class="projectTitle">Qualifying for the USACO Bronze</p>
                     <p class="projectDescription">
-                        In sixth grade, I learned about a popular competitive programming competition called USACO, or United States of America Coding Olympiad. It is known to be one of the best and most difficult coding competitions and was mainly designed for students that were high schools or higher. The way Usaco Works is that It is split into four divisions, Bronze, Silver, gold and Platinum that each increased in difficulty. Even though Bronze is only the first division, it is still very difficult, especially since USACO was not designed at a middle school level. At the beginning, I was still inexperienced since I had only just learnt how to code. In fact, the first time I tried, I failed horrendously. After that, I spent significant time practicing with problems from their past contests and after several months I was finally about to qualify for USACO Bronze in my 7th grade. Not only that, I passed in the top 15% in that competition, beating about 3400 people. Currently, I am studying under a brilliant instructor who is helping me prepare for the next competition in December where I to be able to qualify for the Silver division this time as an 8th grader.
+                        During 6th grade, I learned about a popular competitive programming competition called USACO, or United States of America Coding Olympiad. It is known to be one of the most challenging and difficult coding competitions in the country and was mainly designed for high school and college students. The way USACO works is that it is split into four divisions: Bronze, Silver, Gold and Platinum, with each division increasing in difficulty. Even though Bronze is only the first division, it is still very difficult, especially since USACO was not designed at a middle school level. At the beginning, I was still inexperienced since I had only just learnt how to code. In fact, the first time I tried, I failed horrendously. After that, I spent significant time practicing with problems from their past contests and after several months I was finally about to qualify for USACO Bronze in my 7th grade. Not only that, I passed in the top 15% in that competition, beating about 3,400 people. Currently, I am studying under a brilliant instructor who is helping me prepare for the next competition in December where I to be able to qualify for the Silver division this time as an 8th grader.
                     </p>
                 </div>
  
@@ -39,8 +39,7 @@
                     <img class="projectImage" src='../assets/images/projects/TurtleMaster_Logo.png' />
                     <p class="projectTitle">TurtleMaster Club</p>
                     <p class="projectDescription">
-                        When I was in 6th grade, I had just finished learning coding and Computer Science and wanted to do something impactful that was also related to my new-found skill. This led me to founding a brand-new club in my community called TurtleMasters Club. Through this club, I was able to meet and recruit other children also interested in Programming. Together, we would work on many projects like making websites or even making games if we wanted. These projects included:
-                        <ul>
+                        In 6th grade, I had just finished learning coding and Computer Science and wanted to do something impactful that was also related to my new-found skill. This led me to founding a brand-new club in my community called TurtleMasters Club. Through this club, I was able to meet and recruit other children also interested in Programming. Together, we would work on many projects like making websites or even making games if we wanted. These projects included:                        <ul>
                             <li>Making a website called covidhub.io that gave current information about the pandemic and COVID-19</li>
                             <li>Making a website for a volunteer group called FurFriendsRescue that helped and rescued stray dogs</li>
                             <li>Recreated the popular game minesweeper using basic programming languages</li>
@@ -50,8 +49,8 @@
                 <div id="project3" class="projectFrame" v-if="showProject3">
                     <img class="projectImage" src='../assets/images/projects/CoursePic.jpeg' />
                     <p class="projectTitle">Learning From Online Courses</p>
-                    <p class="projectDescription">At the beginning of my Programming experience, I started out learning Programming skills and languages from online courses created by professors from many prestigious colleges like Princeton University or the University of Michigan. From these courses I learned a variety of things ranging from basic programming skills to website design and development to complex algorithms or data structures used in computer science. These courses include:
-                    </p>
+                    <p class="projectDescription">
+                        At the beginning of my computer programming experience, I started out learning programming skills and languages from online courses created by professors from many prestigious colleges like Princeton University and the University of Michigan. From these courses I learned a variety of things ranging from basic programming skills to website design and development to complex algorithms or data structures used in computer science. These courses include:                  
                     <ul>
                         <li><a href="https://www.coursera.org/specializations/python?">Python for Everybody</a></li>
                         <li><a href="https://www.coursera.org/specializations/web-design?">Web Design for Everbody: Basics of Web Developement and Coding Specialization</a></li>
@@ -60,29 +59,28 @@
                         <li><a href="https://www.coursera.org/learn/algorithms-part1">Algorithms, Part I</a></li>
                         <li><a href="https://www.coursera.org/learn/algorithms-part2">Algorithms, Part II</a></li>
                     </ul>
-                    <p class="projectDescription">All these courses were especially well made, and I am very thankful to have been fortunate enough to access wonderful resources like these. I was able to use the skills I learned from these courses constantly throughout my life in way like when I made this website or every day when practicing for USACO.
+                        All these courses were especially well made, and I am very thankful to have been fortunate enough to access wonderful resources like these. I was able to use the skills I learned from these courses constantly throughout my life in ways such as making this website or when practicing for USACO.                    
                     </p>
                 </div>
                 <div id="project4" class="projectFrame" v-if="showProject4">
                     <img class="projectImage" src='../assets/images/projects/Drawing.png' />
                     <p class="projectTitle">Art Contest Awards</p>
-                    <p class="projectDescription">
-                        One of my greatest passions since a very young age has always been in the Arts. I have been taking art lessons at a place called YongLi Art Studio since first grade and have always loved sketching, painting, or even just doodling when I have nothing better to do. One of the great things about my art teacher is that she taught us a variety of art skills from acrylic to watercolor to sketching and would also encourage us to submit our pieces into art competitions, especially at an art competition she supported called the CTEF Art Contest. I myself have submitted many art pieces there and have even ended up winning several awards. For example, I was awarded with the Award of Excellence in both 2015 and 2016 but also achieved 3rd place in the 2019 CTEF competition. Outside of CTEF competitions, I also once submitted an art piece to my elementary school art contest called the Smith Reflections Contest and was able to win Honorable Mentions there as well.
+                    <p class="projectDescription">g age has always been visual art. I have been taking art lessons at YongLi Art Studio since 1st grade and have always loved sketching, painting, and even just doodling. One of the great things about my art teacher is that she taught us a variety of art skills from acrylic to watercolor to sketching. She would also encourage us to submit our pieces into art competitions, especially at an art competition she supported called the CTEF Art Contest. I have submitted many art pieces there and have won several awards. For example, I was awarded with the Award of Excellence in both 2015 and 2016 but also achieved 3rd place in the 2019 CTEF competition. Outside of CTEF competitions, I also once submitted an art piece to my elementary school art contest called the Smith Reflections Contest and won Honorable Mention.                    
+                        One of my greatest passions since a very youn
                     </p>
                 </div>
                 <div id="project5" class="projectFrame" v-if="showProject5">
                     <img class="projectImage" src='../assets/images/projects/Drawing.png' />
                     <p class="projectTitle">Volunteering</p>
                     <p class="projectDescription">
-                        In my free time, I like to volunteer at places to help other people or animals. I have volunteered at numerous places and communities over the years but the group I volunteer the most in is a group called Little Masters Club, which is a local community of other Chinese families that lived in our area. In the club I would participate in their numerous programs that include:                    </p>
-                    <ul>
+                        Outside of Little Masters Club I also volunteered at several places.  One is with an organization called Footprints that helped, saved, and nurtured injured wildlife in my local area. I also volunteer at my school.
+                        <ul>
                         <li>Online Reading where I taught weekly English to children in China weekly.</li>
                         <li>FurFriends Rescue, a group that helps stray animals find homes and raises money. There I helped volunteer in their numerous events but also used my expertise to help them make their website.</li>
                         <li>Shanxi Education Support where I went to a small rural village in China and taught English and science as an Assistant Teacher.</li>
                         <li>Little Masters Club Summer Camp where I taught a class about programming using the java programing language.</li>
                     </ul>
-                    <p class="projectDescription">
-                        Outside of Little Masters Club I also volunteered at several places like with an organization called Footprints that helped, saved, and nurtured injured wildlife in my local area, or simply at my school.
+                        Outside of Little Masters Club I also volunteered at several places.  One is with an organization called Footprints that helped, saved, and nurtured injured wildlife in my local area. I also volunteer at my school.                    
                     </p>
                 </div>
             </div>
