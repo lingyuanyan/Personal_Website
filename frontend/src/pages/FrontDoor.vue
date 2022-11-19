@@ -1,8 +1,8 @@
 <template>
     <div>
         <about-me></about-me>
-        <my-projects></my-projects>
         <my-hobbies></my-hobbies>
+        <my-projects></my-projects>
         <favorite-books></favorite-books>
         <photo-gallery></photo-gallery>
 
