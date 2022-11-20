@@ -66,7 +66,7 @@
                     <p style="margin-top: 0.25em;">And more</p>
                 </div>
             </div>
-        </div> 
+        </div>
         <div class="popUp" v-show="showPopUp1" @click.self="showPopUp1 = false">
             <div class="card">
                 <div class="xWrapper">
@@ -303,7 +303,7 @@ h4 {
     align-items: center;
     padding: 48px;
     gap: 19px;
-    opacity: initial;
+    opacity: 1.0 !important;
     position: absolute;
     width: 842px;
     height: 521px;
@@ -327,8 +327,7 @@ h4 {
     left: 0px;
     top: 0px;
     text-align: center;
-    background: #222222;
-    opacity: 0.8;
+    background:rgba(22,22,22,0.8);
 }
 
 .hobbiesContainer {
