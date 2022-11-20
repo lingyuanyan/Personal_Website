@@ -70,10 +70,10 @@
         <div class="popUp" v-show="showPopUp1" @click.self="showPopUp1 = false">
             <div class="card">
                 <div class="xWrapper">
-                    <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
+                    <img class="popUpImg" src="../assets/images/gallery/drawing.jpg" alt="">
                     <div class="yWrapper">
-                        <h3>I love Drawing</h3>
-                        <p>biking is fun porque it is fun</p>
+                        <h3>Visual Arts</h3>
+                        <p>I have been studying Visual Arts for the last 7 years with a really wonderful teacher at a place called YongLi Studio. There I developed my skills and passions in a variety of styles and forms of art from acrylic to water color to pencil sketches.</p>
                     </div>
                 </div>
             </div>
@@ -206,6 +206,19 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.yWrapper p {
+    width: 368px;
+    height: 224px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
 .whiteSpace {
     width: 106px;
     height: 85px;
