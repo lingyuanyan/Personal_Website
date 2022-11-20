@@ -65,173 +65,115 @@
                     </span>
                     <p style="margin-top: 0.25em;">And more</p>
                 </div>
-
-                <div class="popUp" v-show="showPopUp1" @click.self="showPopUp1 = false">
-                    <div class="card">
-                        <div class="xWrapper">
-                            <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
-                            <div class="yWrapper">
-                                <div class="closeWrapper">
-                                    <i class="fa-solid fa-xmark"></i>
-                                </div>
-                                <h3>I love Drawing</h3>
-                                <p>biking is fun porque it is fun</p>
-                            </div>
-                        </div>
-                    </div>
-                    <p>>click anywhere to close popup</p>
-                </div>
-                <div class="popUp" v-show="showPopUp2" @click.self="showPopUp2 = false">
-                    <div class="card">
-                        <div class="xWrapper">
-                            <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
-                            <div class="yWrapper">
-                                <div class="closeWrapper">
-                                    <i class="fa-solid fa-xmark"></i>
-                                </div>
-                                <div class="whiteSpace">
-
-                                </div>
-                                <h3>I love Reading</h3>
-                                <p>biking is fun porque it is fun</p>
-                            </div>
-                        </div>
+            </div>
+        </div> 
+        <div class="popUp" v-show="showPopUp1" @click.self="showPopUp1 = false">
+            <div class="card">
+                <div class="xWrapper">
+                    <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
+                    <div class="yWrapper">
+                        <h3>I love Drawing</h3>
+                        <p>biking is fun porque it is fun</p>
                     </div>
                 </div>
-                <div class="popUp" v-show="showPopUp3" @click.self="showPopUp3 = false">
-                    <div class="card">
-                        <div class="xWrapper">
-                            <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
-                            <div class="yWrapper">
-                                <div class="closeWrapper">
-                                    <i class="fa-solid fa-xmark"></i>
-                                </div>
-                                <div class="whiteSpace">
-
-                                </div>
-                                <h3>I love watching movies</h3>
-                                <p>biking is fun porque it is fun</p>
-                            </div>
-                        </div>
+            </div>
+            <p>>click anywhere to close popup</p>
+        </div>
+        <div class="popUp" v-show="showPopUp2" @click.self="showPopUp2 = false">
+            <div class="card">
+                <div class="xWrapper">
+                    <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
+                    <div class="yWrapper">
+                        <h3>I love Reading</h3>
+                        <p>biking is fun porque it is fun</p>
                     </div>
                 </div>
-                <div class="popUp" v-show="showPopUp4" @click.self="showPopUp4 = false">
-                    <div class="card">
-                        <div class="xWrapper">
-                            <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
-                            <div class="yWrapper">
-                                <div class="closeWrapper">
-                                    <i class="fa-solid fa-xmark"></i>
-                                </div>
-                                <div class="whiteSpace">
-
-                                </div>
-                                <h3>I love Playing with friends</h3>
-                                <p>biking is fun porque it is fun</p>
-                            </div>
-                        </div>
+            </div>
+        </div>
+        <div class="popUp" v-show="showPopUp3" @click.self="showPopUp3 = false">
+            <div class="card">
+                <div class="xWrapper">
+                    <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
+                    <div class="yWrapper">
+                        <h3>I love watching movies</h3>
+                        <p>biking is fun porque it is fun</p>
                     </div>
                 </div>
-                <div class="popUp" v-show="showPopUp5" @click.self="showPopUp5 = false">
-                    <div class="card">
-                        <div class="xWrapper">
-                            <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
-                            <div class="yWrapper">
-                                <div class="closeWrapper">
-                                    <i class="fa-solid fa-xmark"></i>
-                                </div>
-                                <div class="whiteSpace">
-
-                                </div>
-                                <h3>I love Listening to Music</h3>
-                                <p>biking is fun porque it is fun</p>
-                            </div>
-                        </div>
+            </div>
+        </div>
+        <div class="popUp" v-show="showPopUp4" @click.self="showPopUp4 = false">
+            <div class="card">
+                <div class="xWrapper">
+                    <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
+                    <div class="yWrapper">
+                        <h3>I love Playing with friends</h3>
+                        <p>biking is fun porque it is fun</p>
                     </div>
                 </div>
-                <div class="popUp" v-show="showPopUp6" @click.self="showPopUp6 = false">
-                    <div class="card">
-                        <div class="xWrapper">
-                            <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
-                            <div class="yWrapper">
-                                <div class="closeWrapper">
-                                    <i class="fa-solid fa-xmark"></i>
-                                </div>
-                                <div class="whiteSpace">
-
-                                </div>
-                                <h3>I love Playing the Guitar</h3>
-                                <p>biking is fun porque it is fun</p>
-                            </div>
-                        </div>
+            </div>
+        </div>
+        <div class="popUp" v-show="showPopUp5" @click.self="showPopUp5 = false">
+            <div class="card">
+                <div class="xWrapper">
+                    <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
+                    <div class="yWrapper">
+                        <h3>I love Listening to Music</h3>
+                        <p>biking is fun porque it is fun</p>
                     </div>
                 </div>
-                <div class="popUp" v-show="showPopUp7" @click.self="showPopUp7 = false">
-                    <div class="card">
-                        <div class="xWrapper">
-                            <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
-                            <div class="yWrapper">
-                                <div class="closeWrapper">
-                                    <i class="fa-solid fa-xmark"></i>
-                                </div>
-                                <div class="whiteSpace">
-
-                                </div>
-                                <h3>I love riding bikes</h3>
-                                <p>biking is fun porque it is fun</p>
-                            </div>
-                        </div>
+            </div>
+        </div>
+        <div class="popUp" v-show="showPopUp6" @click.self="showPopUp6 = false">
+            <div class="card">
+                <div class="xWrapper">
+                    <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
+                    <div class="yWrapper">
+                        <h3>I love Playing the Guitar</h3>
+                        <p>biking is fun porque it is fun</p>
                     </div>
                 </div>
-                <div class="popUp" v-show="showPopUp8" @click.self="showPopUp8 = false">
-                    <div class="card">
-                        <div class="xWrapper">
-                            <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
-                            <div class="yWrapper">
-                                <div class="closeWrapper">
-                                    <i class="fa-solid fa-xmark"></i>
-                                </div>
-                                <div class="whiteSpace">
-
-                                </div>
-                                <h3>I love Learning fascinating things</h3>
-                                <p>biking is fun porque it is fun</p>
-                            </div>
-                        </div>
+            </div>
+        </div>
+        <div class="popUp" v-show="showPopUp7" @click.self="showPopUp7 = false">
+            <div class="card">
+                <div class="xWrapper">
+                    <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
+                    <div class="yWrapper">
+                        <h3>I love riding bikes</h3>
+                        <p>biking is fun porque it is fun</p>
                     </div>
                 </div>
-                <div class="popUp" v-show="showPopUp9" @click.self="showPopUp9 = false">
-                    <div class="card">
-                        <div class="xWrapper">
-                            <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
-                            <div class="yWrapper">
-                                <div class="closeWrapper">
-                                    <i class="fa-solid fa-xmark"></i>
-                                </div>
-                                <div class="whiteSpace">
-
-                                </div>
-                                <h3>I love Skiing</h3>
-                                <p>biking is fun porque it is fun</p>
-                            </div>
-                        </div>
+            </div>
+        </div>
+        <div class="popUp" v-show="showPopUp8" @click.self="showPopUp8 = false">
+            <div class="card">
+                <div class="xWrapper">
+                    <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
+                    <div class="yWrapper">
+                        <h3>I love Learning fascinating things</h3>
+                        <p>biking is fun porque it is fun</p>
                     </div>
                 </div>
-                <div class="popUp" v-show="showPopUp10" @click.self="showPopUp10 = false">
-                    <div class="card">
-                        <div class="xWrapper">
-                            <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
-                            <div class="yWrapper">
-                                <div class="closeWrapper">
-                                    <i class="fa-solid fa-xmark"></i>
-                                </div>
-                                <div class="whiteSpace">
-
-                                </div>
-                                <h3>And More</h3>
-                                <p>biking is fun porque it is fun</p>
-                            </div>
-                        </div>
+            </div>
+        </div>
+        <div class="popUp" v-show="showPopUp9" @click.self="showPopUp9 = false">
+            <div class="card">
+                <div class="xWrapper">
+                    <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
+                    <div class="yWrapper">
+                        <h3>I love Skiing</h3>
+                        <p>biking is fun porque it is fun</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="popUp" v-show="showPopUp10" @click.self="showPopUp10 = false">
+            <div class="card">
+                <div class="xWrapper">
+                    <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
+                    <div class="yWrapper">
+                        <h3>And More</h3>
+                        <p>biking is fun porque it is fun</p>
                     </div>
                 </div>
             </div>
@@ -256,38 +198,10 @@ export default {
             clicked: 0,
         };
     },
-    watch: {
-        /**
-        clicked(value) {
-            this.showPopUp1 = false;
-            this.showPopUp2 = false;
-            this.showPopUp3 = false;
-            this.showPopUp4 = false;
-            this.showPopUp5 = false;
-            this.showPopUp6 = false;
-            this.showPopUp7 = false;
-            this.showPopUp8 = false;
-            this.showPopUp9 = false;
-            this.showPopUp10 = false;
-            console.log("clicked" + value);
-            switch (value) {
-                case 1: this.showPopUp1 = true; return;
-                case 2: this.showPopUp2 = true; return;
-                case 3: this.showPopUp3 = true; return;
-                case 4: this.showPopUp4 = true; return;
-                case 5: this.showPopUp5 = true; return;
-                case 6: this.showPopUp6 = true; return;
-                case 7: this.showPopUp7 = true; return;
-                case 8: this.showPopUp8 = true; return;
-                case 9: this.showPopUp9 = true; return;
-                case 10: this.showPopUp10 = true; return;
-            }
-        }*/
-    },
+    watch: {},
     components: {},
     computed: {},
-    methods: {
-    },
+    methods: {},
 };
 </script>
 
@@ -369,12 +283,14 @@ h4 {
 }
 
 .card {
+    all: initial;
+    z-index: 60;
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 48px;
     gap: 19px;
-    opacity: 1;
+    opacity: initial;
     position: absolute;
     width: 842px;
     height: 521px;
@@ -399,7 +315,7 @@ h4 {
     top: 0px;
     text-align: center;
     background: #222222;
-    opacity: 1.0;
+    opacity: 0.8;
 }
 
 .hobbiesContainer {
