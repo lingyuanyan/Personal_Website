@@ -7,7 +7,7 @@
                     <span class="hobbyIcon">
                         <font-awesome-icon icon="fa-thin fa-palette" />
                     </span>
-                    <p style="margin-top: 0.25em;">Drawing</p>
+                    <p style="margin-top: 0.25em;">Visual Arts</p>
                 </div>
                 <div class="hobbiesCol" @click="showPopUp2 = true">
                     <span class="hobbyIcon">
@@ -17,21 +17,21 @@
                 </div>
                 <div class="hobbiesCol" @click="showPopUp3 = true">
                     <span class="hobbyIcon">
-                        <font-awesome-icon icon="fa-thin fa-camera-movie" />
+                        <font-awesome-icon icon="fa-thin fa-code" />
                     </span>
-                    <p style="margin-top: 0.25em;">Watching movies</p>
+                    <p style="margin-top: 0.25em;">Coding</p>
                 </div>
                 <div class="hobbiesCol" @click="showPopUp4 = true">
                     <span class="hobbyIcon">
                         <font-awesome-icon icon="fa-thin fa-user-group" />
                     </span>
-                    <p style="margin-top: 0.25em;">Playing with friends</p>
+                    <p style="margin-top: 0.25em;">Volunteering</p>
                 </div>
                 <div class="hobbiesCol" @click="showPopUp5 = true">
                     <span class="hobbyIcon">
-                        <font-awesome-icon icon="fa-thin fa-music" />
+                        <font-awesome-icon icon="fa-thin fa-person-running" />
                     </span>
-                    <p style="margin-top: 0.25em;">Listening to music</p>
+                    <p style="margin-top: 0.25em;">Cross Country</p>
                 </div>
             </div>
             <div class="hobbiesRow">
@@ -82,10 +82,10 @@
         <div class="popUp" v-show="showPopUp2" @click.self="showPopUp2 = false">
             <div class="card">
                 <div class="xWrapper">
-                    <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
+                    <img class="popUpImg" src="../assets/images/gallery/Reading.jpg" alt="">
                     <div class="yWrapper">
-                        <h3>I love Reading</h3>
-                        <p>biking is fun porque it is fun</p>
+                        <h3>Reading Books</h3>
+                        <p>I really enjoy reading books, especially fictional books or really anything with a good story. I particularly enjoy fantasy or historical fiction. A short list of my favorites are availiable in the Favorite Books section below. </p>
                     </div>
                 </div>
             </div>
@@ -93,10 +93,12 @@
         <div class="popUp" v-show="showPopUp3" @click.self="showPopUp3 = false">
             <div class="card">
                 <div class="xWrapper">
-                    <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
+                    <video width="300" height="240" controls>
+                        <source src="../assets/images/gallery/Minesweeper.mp4" type="video/mp4">
+                    </video>                    
                     <div class="yWrapper">
-                        <h3>I love watching movies</h3>
-                        <p>biking is fun porque it is fun</p>
+                        <h3>Coding</h3>
+                        <p>I started coding in my fourth grade and was introduced to Computer Sciecne through several really wonderful courses that you can read about in my acheivements section. The video to the left is a demostration of one my projects, which is a minesweeper game I coded up with the other members of my TurtleMasters Club</p>
                     </div>
                 </div>
             </div>
@@ -104,10 +106,11 @@
         <div class="popUp" v-show="showPopUp4" @click.self="showPopUp4 = false">
             <div class="card">
                 <div class="xWrapper">
-                    <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
+                    
+                    <img class="popUpImg" src="../assets/images/gallery/volunteerAward2019.jpg" alt="">
                     <div class="yWrapper">
-                        <h3>I love Playing with friends</h3>
-                        <p>biking is fun porque it is fun</p>
+                        <h3>Volunteering</h3>
+                        <p>I really like helping other and the idea that one person can spread so much happiness and good will. That is why I have spent so much time volunteering in my community and working with other people to help other. Also, I am able to meet and see many new things as well.</p>
                     </div>
                 </div>
             </div>
@@ -115,10 +118,10 @@
         <div class="popUp" v-show="showPopUp5" @click.self="showPopUp5 = false">
             <div class="card">
                 <div class="xWrapper">
-                    <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
+                    <!--<img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">-->
                     <div class="yWrapper">
-                        <h3>I love Listening to Music</h3>
-                        <p>biking is fun porque it is fun</p>
+                        <h3>Cross Country</h3>
+                        <p>I started running since I needed to do a sport and for my health, but then I realized that I really enjoyed it. After that, I ran everyday in the morning during the summer and participated in Cross Country in my school. I loved running with my friends and getting faster and faster each time.</p>
                     </div>
                 </div>
             </div>
@@ -128,8 +131,8 @@
                 <div class="xWrapper">
                     <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
                     <div class="yWrapper">
-                        <h3>I love Playing the Guitar</h3>
-                        <p>biking is fun porque it is fun</p>
+                        <h3>Playing the Guitar</h3>
+                        <p>I started playing music with the recorder in fourth grade and there I discovered my passion for music. Since then, I have tried a variety of instruments before finally moving onto my favorite instrument which is the guitar. Currently I play a classical guitar and enjoy playing many of my favorite songs there such as Jesu Joy of Man's Desiring and more.</p>
                     </div>
                 </div>
             </div>
@@ -137,10 +140,10 @@
         <div class="popUp" v-show="showPopUp7" @click.self="showPopUp7 = false">
             <div class="card">
                 <div class="xWrapper">
-                    <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
+                    <img class="popUpImg" src="../assets/images/gallery/bikingAtPond.jpg" alt="">
                     <div class="yWrapper">
-                        <h3>I love riding bikes</h3>
-                        <p>biking is fun porque it is fun</p>
+                        <h3>Bikimg</h3>
+                        <p>I learned biking very early on and really enjoyed it. I like periodically going out for a bike ride to get where I want to go like to school, or just if I want to have some fun. I also enjoy riding with other people like with my friends or family.</p>
                     </div>
                 </div>
             </div>
@@ -148,10 +151,10 @@
         <div class="popUp" v-show="showPopUp8" @click.self="showPopUp8 = false">
             <div class="card">
                 <div class="xWrapper">
-                    <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
+                    <img class="popUpImg" src="../assets/images/gallery/kurzgesagt2.jpg" alt="">
                     <div class="yWrapper">
-                        <h3>I love Learning fascinating things</h3>
-                        <p>biking is fun porque it is fun</p>
+                        <h3>Learning Fascinating Things</h3>
+                        <p>I always love learning cool and fascinating things from new instruments to little facts or discoveries. That is why I really enjoy watching educational videos in my free time from wonderful youtube channels like Kurzgesagt, Veritasium and GCP Grey which allows me to learn things ranging from physics to math to our Immune System.</p>
                     </div>
                 </div>
             </div>
@@ -159,21 +162,33 @@
         <div class="popUp" v-show="showPopUp9" @click.self="showPopUp9 = false">
             <div class="card">
                 <div class="xWrapper">
-                    <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
+                    <img class="popUpImg" src="../assets/images/gallery/skiing.jpg" alt="">
                     <div class="yWrapper">
-                        <h3>I love Skiing</h3>
-                        <p>biking is fun porque it is fun</p>
+                        <h3>Skiing</h3>
+                        <p>I started skiing in my fourth grade and have continued to learn and enjoy it ever since. Every year, I attend the Issaquah Ski and SnowBoard School, and has been there every year except during the pandemic. I am currently able to ski on the black slopes.</p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="popUp" v-show="showPopUp10" @click.self="showPopUp10 = false">
             <div class="card">
-                <div class="xWrapper">
-                    <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
-                    <div class="yWrapper">
-                        <h3>And More</h3>
-                        <p>biking is fun porque it is fun</p>
+                <div class="xWrapper" >
+                    <h3 style="float: left;">And More Interests such as:</h3>
+                    <div style="float: right;" class="yWrapper">
+                        <ul>
+                            <li>Sketching</li>
+                            <li>Origami</li>
+                            <li>Listening to Music</li>
+                            <li>Solving the Rubik's Cube</li>
+                            <li>Watching Online Videos</li>
+                            <li>Woodworking</li>
+                            <li>Arts and Crafts</li>
+                            <li>Solving Puzzles</li>
+                            <li>Birdwatching</li>
+                            <li>Baking</li>
+                            <li>Watching Movies</li>
+                            <li>Playing games</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -206,6 +221,18 @@ export default {
 </script>
 
 <style scoped lang="scss">
+ul {
+}
+.yWrapper ul li {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
 .yWrapper p {
     width: 368px;
     height: 224px;
@@ -217,43 +244,6 @@ export default {
     color: #000000;
     flex: none;
     order: 3;
-    flex-grow: 0;
-}
-.whiteSpace {
-    width: 106px;
-    height: 85px;
-    background: #FFFFFF;
-    flex: none;
-    order: 1;
-    flex-grow: 1;
-}
-
-h4 {
-    width: 208px;
-    height: 36px;
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 24px;
-    line-height: 36px;
-    color: #222222;
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-}
-
-.closeWrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 0px;
-    gap: 10px;
-    width: 368px;
-    height: 32px;
-    flex: none;
-    order: 0;
-    align-self: stretch;
     flex-grow: 0;
 }
 
@@ -388,17 +378,5 @@ a {
 
 .hobbiesCol:hover {
     color: #2B70C9;
-}
-
-.hobbyTitle {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 36px;
-    color: #222222;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
 }
 </style>

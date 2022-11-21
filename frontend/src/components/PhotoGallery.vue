@@ -63,12 +63,10 @@
             <p class="photoSubTitle">Sports</p>
             <div class="photoRow">
                 <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/bikeingPetals.jpg"/></div>
-                <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/Biking.jpg"/></div>
-                <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/Biking2.jpg"/></div>
-                <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/bikingAtPond.jpg"/></div>
+                <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/faceBiking.jpg"/></div>
             </div>
             <div class="photoRow">
-                <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/faceBiking.jpg"/></div>
+                <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/Biking2.jpg"/></div>
                 <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/Ping-Pong.jpg"/></div>
                 <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/Ping-pong2.jpg"/></div>
                 <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/skiing.jpg"/></div>
