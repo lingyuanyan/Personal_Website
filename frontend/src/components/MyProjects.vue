@@ -1,6 +1,6 @@
 <template>
     <div id="myProjectsSection" class="projectsContainer">
-        <p class="projectsTitle">Projects and Acheivements</p>
+        <p class="projectsTitle">Projects and Achievements</p>
         <div class="projectBox">
             <div class="navContainer">
                 <ul class="navList">
@@ -51,6 +51,7 @@
                     <p class="projectTitle">Learning From Online Courses</p>
                     <p class="projectDescription">
                         At the beginning of my computer programming experience, I started out learning programming skills and languages from online courses created by professors from many prestigious colleges like Princeton University and the University of Michigan. From these courses I learned a variety of things ranging from basic programming skills to website design and development to complex algorithms or data structures used in computer science. These courses include:                  
+                    </p>
                     <ul>
                         <li><a href="https://www.coursera.org/specializations/python?">Python for Everybody</a></li>
                         <li><a href="https://www.coursera.org/specializations/web-design?">Web Design for Everbody: Basics of Web Developement and Coding Specialization</a></li>
@@ -59,18 +60,19 @@
                         <li><a href="https://www.coursera.org/learn/algorithms-part1">Algorithms, Part I</a></li>
                         <li><a href="https://www.coursera.org/learn/algorithms-part2">Algorithms, Part II</a></li>
                     </ul>
+                    <p class="projectDescription">
                         All these courses were especially well made, and I am very thankful to have been fortunate enough to access wonderful resources like these. I was able to use the skills I learned from these courses constantly throughout my life in ways such as making this website or when practicing for USACO.                    
                     </p>
                 </div>
                 <div id="project4" class="projectFrame" v-if="showProject4">
                     <img class="projectImage" src='../assets/images/projects/Drawing.png' />
                     <p class="projectTitle">Art Contest Awards</p>
-                    <p class="projectDescription">g age has always been visual art. I have been taking art lessons at YongLi Art Studio since 1st grade and have always loved sketching, painting, and even just doodling. One of the great things about my art teacher is that she taught us a variety of art skills from acrylic to watercolor to sketching. She would also encourage us to submit our pieces into art competitions, especially at an art competition she supported called the CTEF Art Contest. I have submitted many art pieces there and have won several awards. For example, I was awarded with the Award of Excellence in both 2015 and 2016 but also achieved 3rd place in the 2019 CTEF competition. Outside of CTEF competitions, I also once submitted an art piece to my elementary school art contest called the Smith Reflections Contest and won Honorable Mention.                    
-                        One of my greatest passions since a very youn
+                    <p class="projectDescription">
+                        One of my greatest passions since a very young age has always been visual art. I have been taking art lessons at YongLi Art Studio since 1st grade and have always loved sketching, painting, and even just doodling. One of the great things about my art teacher is that she taught us a variety of art skills from acrylic to watercolor to sketching. She would also encourage us to submit our pieces into art competitions, especially at an art competition she supported called the CTEF Art Contest. I have submitted many art pieces there and have won several awards. For example, I was awarded with the Award of Excellence in both 2015 and 2016 but also achieved 3rd place in the 2019 CTEF competition. Outside of CTEF competitions, I also once submitted an art piece to my elementary school art contest called the Smith Reflections Contest and won Honorable Mention.                    
                     </p>
                 </div>
                 <div id="project5" class="projectFrame" v-if="showProject5">
-                    <img class="projectImage" src='../assets/images/projects/Drawing.png' />
+                    <img class="projectImage" src='../assets/images/projects/garageSale.jpg' />
                     <p class="projectTitle">Volunteering</p>
                     <p class="projectDescription">
                         Outside of Little Masters Club I also volunteered at several places.  One is with an organization called Footprints that helped, saved, and nurtured injured wildlife in my local area. I also volunteer at my school.
@@ -241,5 +243,9 @@ export default {
     flex: none;
     order: 1;
     flex-grow: 0;
+}
+li {
+    @extend .projectDescription;
+    text-align: left;
 }
 </style>

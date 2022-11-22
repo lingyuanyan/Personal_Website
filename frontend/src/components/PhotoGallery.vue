@@ -10,7 +10,7 @@
             </div>
             <div class="photoRow">
                 <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/goldengatePic.jpg"/></div>
-                <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/Headline.jpg"/></div>
+                <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/Epcot.jpg"/></div>
                 <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/JFK_park.jpg"/></div>
                 <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/Legos.jpg"/></div>
             </div>
@@ -52,13 +52,12 @@
                 <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/bakingCookiesFFR.jpg"/></div>
                 <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/feeding.jpg"/></div>
                 <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/feedingRaccon.jpg"/></div>
-                <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/garageSale.jpg"/></div>
+                <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/movingAnimals.jpg"/></div>
+            
             </div>
             <div class="photoRow">
+                <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/garageSale.jpg"/></div>
                 <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/GarageSale2.jpg"/></div>
-                <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/GarageSaleSign.jpg"/></div>
-                <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/movingAnimals.jpg"/></div>
-                <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/volunteerAward2019.jpg"/></div>
             </div>
             <p class="photoSubTitle">Sports</p>
             <div class="photoRow">

@@ -1,9 +1,9 @@
 <template>
     <div class="linkBox">
         <router-link class="routerLink" to="#" v-scroll-to="'#aboutMeSection'">About Me</router-link>
-        <router-link class="routerLink" to="#" v-scroll-to="'#favoriteBooksSection'">My Hobbies</router-link>
+        <router-link class="routerLink" to="#" v-scroll-to="'#myHobbiesSection'">My Interests</router-link>
+        <router-link class="routerLink" to="#" v-scroll-to="'#myProjectsSection'">Projects & Achievements</router-link>
         <router-link class="routerLink" to="#" v-scroll-to="'#photoGallerySection'">Photo Gallery</router-link>
-        <router-link class="routerLink" to="#" v-scroll-to="'#myProjectsSection'">Projects & Acheivements</router-link>
     </div>
 </template>
 <script>

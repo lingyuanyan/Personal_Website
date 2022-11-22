@@ -2,8 +2,8 @@
     <div>
         <about-me></about-me>
         <my-hobbies></my-hobbies>
-        <my-projects></my-projects>
         <favorite-books></favorite-books>
+        <my-projects></my-projects>
         <photo-gallery></photo-gallery>
 
     </div>

@@ -5,7 +5,9 @@
         </div>
         <div class="textContainer">
             <p class="textHeader">My name is Lingyuan Yan. Welcome to my Website!</p>
+            <p class="quote">"Be the change you wish to see in the world" - Mahatma Gandhi</p>
             <p class="textDetails">I am currently an 8th grader that lives in Washington State. Not only am I a student that loves learning, I am also a computer programmer, a passionate guitarist, and someone who loves sports.</p>
+            
         </div>
         <div>       
 
@@ -23,6 +25,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.quote {
+    font-style: italic;
+    color: white;
+}
 .backContainer {
     display: flex;
 flex-direction: row;
@@ -81,7 +87,7 @@ flex-grow: 0;
     /* Hi ! I am Lingyuan. Volutpat eu in elementum enim amet maecenas elit,
     facilisis ! */
     width: 583px;
-    height: 224px;
+    height: 135px;
 
     /* Title1 | Bold */
 

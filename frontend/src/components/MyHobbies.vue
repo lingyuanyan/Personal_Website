@@ -5,9 +5,9 @@
             <div class="hobbiesRow">
                 <div class="hobbiesCol" @click="showPopUp1 = true">
                     <span class="hobbyIcon">
-                        <font-awesome-icon icon="fa-thin fa-palette" />
+                        <font-awesome-icon icon="fa-thin fa-code" />
                     </span>
-                    <p style="margin-top: 0.25em;">Visual Arts</p>
+                    <p style="margin-top: 0.25em;">Coding</p>
                 </div>
                 <div class="hobbiesCol" @click="showPopUp2 = true">
                     <span class="hobbyIcon">
@@ -17,47 +17,47 @@
                 </div>
                 <div class="hobbiesCol" @click="showPopUp3 = true">
                     <span class="hobbyIcon">
-                        <font-awesome-icon icon="fa-thin fa-code" />
+                        <font-awesome-icon icon="fa-thin fa-dragon" />
                     </span>
-                    <p style="margin-top: 0.25em;">Coding</p>
+                    <p style="margin-top: 0.25em;">Learn fascinating things</p>
                 </div>
                 <div class="hobbiesCol" @click="showPopUp4 = true">
-                    <span class="hobbyIcon">
-                        <font-awesome-icon icon="fa-thin fa-user-group" />
-                    </span>
-                    <p style="margin-top: 0.25em;">Volunteering</p>
-                </div>
-                <div class="hobbiesCol" @click="showPopUp5 = true">
-                    <span class="hobbyIcon">
-                        <font-awesome-icon icon="fa-thin fa-person-running" />
-                    </span>
-                    <p style="margin-top: 0.25em;">Cross Country</p>
-                </div>
-            </div>
-            <div class="hobbiesRow">
-                <div class="hobbiesCol" @click="showPopUp6 = true">
                     <span class="hobbyIcon">
                         <font-awesome-icon icon="fa-thin fa-guitar" />
                     </span>
                     <p style="margin-top: 0.25em;">Playing guitar</p>
                 </div>
+                <div class="hobbiesCol" @click="showPopUp5 = true">
+                    <span class="hobbyIcon">
+                        <font-awesome-icon icon="fa-thin fa-palette" />
+                    </span>
+                    <p style="margin-top: 0.25em;">Visual Arts</p>
+                </div>
+            </div>
+            <div class="hobbiesRow">
+                <div class="hobbiesCol" @click="showPopUp6 = true">
+                    <span class="hobbyIcon">
+                        <font-awesome-icon icon="fa-thin fa-person-running" />
+                    </span>
+                    <p style="margin-top: 0.25em;">Cross Country</p>
+                </div>
                 <div class="hobbiesCol" @click="showPopUp7 = true">
+                    <span class="hobbyIcon">
+                        <font-awesome-icon icon="fa-thin fa-person-skiing" />
+                    </span>
+                    <p style="margin-top: 0.25em;">Skiing</p>
+                </div>
+                <div class="hobbiesCol" @click="showPopUp8 = true">
                     <span class="hobbyIcon">
                         <font-awesome-icon icon="fa-thin fa-bicycle" />
                     </span>
                     <p style="margin-top: 0.25em;">Riding bikes</p>
                 </div>
-                <div class="hobbiesCol" @click="showPopUp8 = true">
-                    <span class="hobbyIcon">
-                        <font-awesome-icon icon="fa-thin fa-dragon" />
-                    </span>
-                    <p style="margin-top: 0.25em;">Learn fascinating things</p>
-                </div>
                 <div class="hobbiesCol" @click="showPopUp9 = true">
                     <span class="hobbyIcon">
-                        <font-awesome-icon icon="fa-thin fa-person-skiing" />
+                        <font-awesome-icon icon="fa-thin fa-user-group" />
                     </span>
-                    <p style="margin-top: 0.25em;">Skiing</p>
+                    <p style="margin-top: 0.25em;">Volunteering</p>
                 </div>
                 <div class="hobbiesCol" @click="showPopUp10 = true">
                     <span class="hobbyIcon">
@@ -70,14 +70,15 @@
         <div class="popUp" v-show="showPopUp1" @click.self="showPopUp1 = false">
             <div class="card">
                 <div class="xWrapper">
-                    <img class="popUpImg" src="../assets/images/gallery/drawing.jpg" alt="">
+                    <video width="300" height="240" controls>
+                        <source src="../assets/images/gallery/Minesweeper.mp4" type="video/mp4">
+                    </video>                    
                     <div class="yWrapper">
-                        <h3>Visual Arts</h3>
-                        <p>I have been studying Visual Arts for the last 7 years with a really wonderful teacher at a place called YongLi Studio. There I developed my skills and passions in a variety of styles and forms of art from acrylic to water color to pencil sketches.</p>
+                        <h3>Coding</h3>
+                        <p>I started coding in my fourth grade and was introduced to Computer Sciecne through several really wonderful courses that you can read about in my acheivements section. The video to the left is a demostration of one my projects, which is a minesweeper game I coded up with the other members of my TurtleMasters Club</p>
                     </div>
                 </div>
             </div>
-            <p>>click anywhere to close popup</p>
         </div>
         <div class="popUp" v-show="showPopUp2" @click.self="showPopUp2 = false">
             <div class="card">
@@ -93,40 +94,15 @@
         <div class="popUp" v-show="showPopUp3" @click.self="showPopUp3 = false">
             <div class="card">
                 <div class="xWrapper">
-                    <video width="300" height="240" controls>
-                        <source src="../assets/images/gallery/Minesweeper.mp4" type="video/mp4">
-                    </video>                    
+                    <img class="popUpImg" src="../assets/images/gallery/kurzgesagt2.jpg" alt="">
                     <div class="yWrapper">
-                        <h3>Coding</h3>
-                        <p>I started coding in my fourth grade and was introduced to Computer Sciecne through several really wonderful courses that you can read about in my acheivements section. The video to the left is a demostration of one my projects, which is a minesweeper game I coded up with the other members of my TurtleMasters Club</p>
+                        <h3>Learning Fascinating Things</h3>
+                        <p>I always love learning cool and fascinating things from new instruments to little facts or discoveries. That is why I really enjoy watching educational videos in my free time from wonderful youtube channels like Kurzgesagt, Veritasium and GCP Grey which allows me to learn things ranging from physics to math to our Immune System.</p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="popUp" v-show="showPopUp4" @click.self="showPopUp4 = false">
-            <div class="card">
-                <div class="xWrapper">
-                    
-                    <img class="popUpImg" src="../assets/images/gallery/volunteerAward2019.jpg" alt="">
-                    <div class="yWrapper">
-                        <h3>Volunteering</h3>
-                        <p>I really like helping other and the idea that one person can spread so much happiness and good will. That is why I have spent so much time volunteering in my community and working with other people to help other. Also, I am able to meet and see many new things as well.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="popUp" v-show="showPopUp5" @click.self="showPopUp5 = false">
-            <div class="card">
-                <div class="xWrapper">
-                    <!--<img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">-->
-                    <div class="yWrapper">
-                        <h3>Cross Country</h3>
-                        <p>I started running since I needed to do a sport and for my health, but then I realized that I really enjoyed it. After that, I ran everyday in the morning during the summer and participated in Cross Country in my school. I loved running with my friends and getting faster and faster each time.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="popUp" v-show="showPopUp6" @click.self="showPopUp6 = false">
             <div class="card">
                 <div class="xWrapper">
                     <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
@@ -137,13 +113,36 @@
                 </div>
             </div>
         </div>
+        <div class="popUp" v-show="showPopUp5" @click.self="showPopUp5 = false">
+            <div class="card">
+                <div class="xWrapper">
+                    <img class="popUpImg" src="../assets/images/gallery/drawing.jpg" alt="">
+                    <div class="yWrapper">
+                        <h3>Visual Arts</h3>
+                        <p>I have been studying Visual Arts for the last 7 years with a really wonderful teacher at a place called YongLi Studio. There I developed my skills and passions in a variety of styles and forms of art from acrylic to water color to pencil sketches.</p>
+                    </div>
+                </div>
+            </div>
+            <p>>click anywhere to close popup</p>
+        </div>
+        <div class="popUp" v-show="showPopUp6" @click.self="showPopUp6 = false">
+            <div class="card">
+                <div class="xWrapper">
+                    <!--<img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">-->
+                    <div class="yWrapper">
+                        <h3>Cross Country</h3>
+                        <p>I started running since I needed to do a sport and for my health, but then I realized that I really enjoyed it. After that, I ran everyday in the morning during the summer and participated in Cross Country in my school. I loved running with my friends and getting faster and faster each time.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="popUp" v-show="showPopUp7" @click.self="showPopUp7 = false">
             <div class="card">
                 <div class="xWrapper">
-                    <img class="popUpImg" src="../assets/images/gallery/bikingAtPond.jpg" alt="">
+                    <img class="popUpImg" src="../assets/images/gallery/skiing.jpg" alt="">
                     <div class="yWrapper">
-                        <h3>Bikimg</h3>
-                        <p>I learned biking very early on and really enjoyed it. I like periodically going out for a bike ride to get where I want to go like to school, or just if I want to have some fun. I also enjoy riding with other people like with my friends or family.</p>
+                        <h3>Skiing</h3>
+                        <p>I started skiing in my fourth grade and have continued to learn and enjoy it ever since. Every year, I attend the Issaquah Ski and SnowBoard School, and has been there every year except during the pandemic. I am currently able to ski on the black slopes.</p>
                     </div>
                 </div>
             </div>
@@ -151,21 +150,21 @@
         <div class="popUp" v-show="showPopUp8" @click.self="showPopUp8 = false">
             <div class="card">
                 <div class="xWrapper">
-                    <img class="popUpImg" src="../assets/images/gallery/kurzgesagt2.jpg" alt="">
+                    <img class="popUpImg" src="../assets/images/gallery/bikingAtPond.jpg" alt="">
                     <div class="yWrapper">
-                        <h3>Learning Fascinating Things</h3>
-                        <p>I always love learning cool and fascinating things from new instruments to little facts or discoveries. That is why I really enjoy watching educational videos in my free time from wonderful youtube channels like Kurzgesagt, Veritasium and GCP Grey which allows me to learn things ranging from physics to math to our Immune System.</p>
+                        <h3>Biking</h3>
+                        <p>I learned biking very early on and really enjoyed it. I like periodically going out for a bike ride to get where I want to go like to school, or just if I want to have some fun. I also enjoy riding with other people like with my friends or family.</p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="popUp" v-show="showPopUp9" @click.self="showPopUp9 = false">
             <div class="card">
-                <div class="xWrapper">
-                    <img class="popUpImg" src="../assets/images/gallery/skiing.jpg" alt="">
+                <div class="xWrapper"> 
+                    <img class="popUpImg" src="../assets/images/gallery/volunteerAward2019.jpg" alt="">
                     <div class="yWrapper">
-                        <h3>Skiing</h3>
-                        <p>I started skiing in my fourth grade and have continued to learn and enjoy it ever since. Every year, I attend the Issaquah Ski and SnowBoard School, and has been there every year except during the pandemic. I am currently able to ski on the black slopes.</p>
+                        <h3>Volunteering</h3>
+                        <p>I really like helping other and the idea that one person can spread so much happiness and good will. That is why I have spent so much time volunteering in my community and working with other people to help other. Also, I am able to meet and see many new things as well.</p>
                     </div>
                 </div>
             </div>
