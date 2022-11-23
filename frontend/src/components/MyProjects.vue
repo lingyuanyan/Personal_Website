@@ -75,8 +75,7 @@
                     <img class="projectImage" src='../assets/images/projects/garageSaleflat.jpg' />
                     <p class="projectTitle">Volunteering Awards</p>
                     <p class="projectDescription">
-                        Outside of Little Masters Club I also volunteered at several places.  One is with an organization called Footprints that helped, saved, and nurtured injured wildlife in my local area. I also volunteer at my school.
-                        <ul>
+                        Not only do I love things like Computer Science and Art, but I also love helping others, which is one of the reasons I started volunteering. I loved being able to help other people and animals. I volunteered at numerous places and communities, but the group that I volunteer the most is Little Masters Club which is a group of other Chinese immigrant families that live in our area. In the club, I participate in their numerous programs, including:                        <ul>
                         <li>Online Reading where I taught weekly English to children in China weekly.</li>
                         <li>FurFriends Rescue, a group that helps stray animals find homes and raises money. There I helped volunteer in their numerous events but also used my expertise to help them make their website.</li>
                         <li>Shanxi Education Support where I went to a small rural village in China and taught English and science as an Assistant Teacher.</li>
