@@ -28,6 +28,7 @@ export default {
 .quote {
     font-style: italic;
     color: white;
+    width: 583px;
 }
 .backContainer {
     display: flex;
@@ -38,7 +39,6 @@ padding: 0px 156px 68px;
 gap: 160px;
 
 width: 100%;
-height: 525px;
 
 /* Blue */
 
@@ -78,6 +78,7 @@ flex-grow: 0;
 
 .textContainer {
     width: 50%;
+    text-align: center;
     @extend .d-flex;
     @extend .flex-column;
     @extend .justify-content-center;

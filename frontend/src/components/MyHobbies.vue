@@ -19,13 +19,13 @@
                     <span class="hobbyIcon">
                         <font-awesome-icon icon="fa-thin fa-dragon" />
                     </span>
-                    <p style="margin-top: 0.25em;">Learn fascinating things</p>
+                    <p style="margin-top: 0.25em;">Learn Fascinating Things</p>
                 </div>
                 <div class="hobbiesCol" @click="showPopUp4 = true">
                     <span class="hobbyIcon">
                         <font-awesome-icon icon="fa-thin fa-guitar" />
                     </span>
-                    <p style="margin-top: 0.25em;">Playing guitar</p>
+                    <p style="margin-top: 0.25em;">Playing Guitar</p>
                 </div>
                 <div class="hobbiesCol" @click="showPopUp5 = true">
                     <span class="hobbyIcon">
@@ -51,7 +51,7 @@
                     <span class="hobbyIcon">
                         <font-awesome-icon icon="fa-thin fa-bicycle" />
                     </span>
-                    <p style="margin-top: 0.25em;">Riding bikes</p>
+                    <p style="margin-top: 0.25em;">Riding Bikes</p>
                 </div>
                 <div class="hobbiesCol" @click="showPopUp9 = true">
                     <span class="hobbyIcon">
@@ -63,7 +63,7 @@
                     <span class="hobbyIcon">
                         <font-awesome-icon icon="fa-thin fa-circle-plus" />
                     </span>
-                    <p style="margin-top: 0.25em;">And more</p>
+                    <p style="margin-top: 0.25em;">And More</p>
                 </div>
             </div>
         </div>

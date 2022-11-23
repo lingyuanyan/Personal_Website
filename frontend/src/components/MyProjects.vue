@@ -36,7 +36,7 @@
                 </div>
  
                 <div id="project1" class="projectFrame" v-if="showProject2">
-                    <img class="projectImage" src='../assets/images/projects/TurtleMaster_Logo.png' />
+                    <img class="projectImage" src='../assets/images/projects/TurtleMaster_Logo.png' style="width: 300px;"/>
                     <p class="projectTitle">TurtleMaster Club</p>
                     <p class="projectDescription">
                         In 6th grade, I had just finished learning coding and Computer Science and wanted to do something impactful that was also related to my new-found skill. This led me to founding a brand-new club in my community called TurtleMasters Club. Through this club, I was able to meet and recruit other children also interested in Programming. Together, we would work on many projects like making websites or even making games if we wanted. These projects included:                        <ul>
@@ -72,8 +72,8 @@
                     </p>
                 </div>
                 <div id="project5" class="projectFrame" v-if="showProject5">
-                    <img class="projectImage" src='../assets/images/projects/garageSale.jpg' />
-                    <p class="projectTitle">Volunteering</p>
+                    <img class="projectImage" src='../assets/images/projects/garageSaleflat.jpg' />
+                    <p class="projectTitle">Volunteering Awards</p>
                     <p class="projectDescription">
                         Outside of Little Masters Club I also volunteered at several places.  One is with an organization called Footprints that helped, saved, and nurtured injured wildlife in my local area. I also volunteer at my school.
                         <ul>
@@ -110,7 +110,6 @@ export default {
             this.showProject3 = false;
             this.showProject4 = false;
             this.showProject5 = false;
-
             switch (index) {
                 case 1: this.showProject1 = true; return;
                 case 2: this.showProject2 = true; return;

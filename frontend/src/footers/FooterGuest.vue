@@ -16,5 +16,6 @@ export default {
 <style scoped lang="scss">
 .contact{
     color: #FFFFFF;
+    margin: 10px;
 }
 </style>

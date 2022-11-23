@@ -1,6 +1,7 @@
 <template>
     <div>
         <about-me></about-me>
+        <my-resume></my-resume>
         <my-hobbies></my-hobbies>
         <favorite-books></favorite-books>
         <my-projects></my-projects>
@@ -11,8 +12,9 @@
 
 <script>
 import AboutMe from '../components/AboutMe';
-import FavoriteBooks from '../components/FavoriteBooks';
+import MyResume from '../components/MyResume';
 import MyHobbies from '../components/MyHobbies';
+import FavoriteBooks from '../components/FavoriteBooks';
 import MyProjects from '../components/MyProjects';
 import PhotoGallery from '../components/PhotoGallery';
 
@@ -27,8 +29,9 @@ export default {
 
     components: {
         AboutMe,
-        FavoriteBooks,
+        MyResume,
         MyHobbies,
+        FavoriteBooks,
         MyProjects,
         PhotoGallery
     },
