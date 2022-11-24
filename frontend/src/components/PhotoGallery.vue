@@ -5,7 +5,11 @@
             <div class="photoRow">
                 <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/Breakfast.jpg"/></div>
                 <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/Eating_Cotton_Candy.jpg"/></div>
-                <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/Epcot.jpg"/></div>
+                <div class="photoCol">                    
+                    <video width="300" height="240" controls>
+                        <source src="../assets/images/gallery/PuzzelXhinese.mp4" type="video/mp4">
+                    </video>                 
+                </div>
                 <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/Flowers.jpg"/></div>
             </div>
             <div class="photoRow">
@@ -18,6 +22,7 @@
                 <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/Plants.jpg"/></div>
                 <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/Reading.jpg"/></div>
                 <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/Lake.jpg"/></div>
+                <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/cubscoutsDerby.jpg"/></div>
             </div>
             <p class="photoSubTitle">Arts & Crafts</p>
             <div class="photoRow">
@@ -49,11 +54,14 @@
             </div>
             <p class="photoSubTitle">Volunteering</p>
             <div class="photoRow">
+                <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/MakingSausage.jpg"/></div>
+                <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/Volunteering.jpg"/></div>
+            </div>
+            <div class="photoRow">
                 <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/bakingCookiesFFR.jpg"/></div>
                 <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/feeding.jpg"/></div>
                 <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/feedingRaccon.jpg"/></div>
                 <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/movingAnimals.jpg"/></div>
-            
             </div>
             <div class="photoRow">
                 <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/garageSale.jpg"/></div>
@@ -66,9 +74,13 @@
             </div>
             <div class="photoRow">
                 <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/Biking2.jpg"/></div>
-                <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/Ping-Pong.jpg"/></div>
                 <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/Ping-pong2.jpg"/></div>
                 <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/skiing.jpg"/></div>
+                <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/BikingEvent3.jpg"/></div>
+            </div>
+            <div class="photoRow">
+                <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/Ping-Pong.jpg"/></div>
+                <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/Soccer.jpg"/></div>
             </div>
             <p class="photoSubTitle">Snow!</p>
             <div class="photoRow">

@@ -29,7 +29,7 @@
             <div class="projectList">
                 <div id="project2" class="projectFrame" v-if="showProject1">
                     <img class="projectImage" src='../assets/images/projects/usacoPic.jpeg' loading=lazy/>
-                    <p class="projectTitle">Qualifying for the USACO Bronze</p>
+                    <p class="projectTitle">Qualifying for the USACO Bronze (<a  href="http://www.usaco.org/index.php">USACO</a>)</p>
                     <p class="projectDescription">
                         During 6th grade, I learned about a popular competitive programming competition called USACO, or United States of America Coding Olympiad. It is known to be one of the most challenging and difficult coding competitions in the country and was mainly designed for high school and college students. The way USACO works is that it is split into four divisions: Bronze, Silver, Gold and Platinum, with each division increasing in difficulty. Even though Bronze is only the first division, it is still very difficult, especially since USACO was not designed at a middle school level. At the beginning, I was still inexperienced since I had only just learnt how to code. In fact, the first time I tried, I failed horrendously. After that, I spent significant time practicing with problems from their past contests and after several months I was finally about to qualify for USACO Bronze in my 7th grade. Not only that, I passed in the top 15% in that competition, beating about 3,400 people. Currently, I am studying under a brilliant instructor who is helping me prepare for the next competition in December where I to be able to qualify for the Silver division this time as an 8th grader.
                     </p>
@@ -40,7 +40,7 @@
                     <p class="projectTitle">TurtleMaster Club</p>
                     <p class="projectDescription">
                         In 6th grade, I had just finished learning coding and Computer Science and wanted to do something impactful that was also related to my new-found skill. This led me to founding a brand-new club in my community called TurtleMasters Club. Through this club, I was able to meet and recruit other children also interested in Programming. Together, we would work on many projects like making websites or even making games if we wanted. These projects included:                        <ul>
-                            <li>Making a website called covidhub.io that gave current information about the pandemic and COVID-19</li>
+                            <li>Making a website called <a href="http://covidhub.io/">covidhub.io</a> that gave current information about the pandemic and COVID-19</li>
                             <li>Making a website for a volunteer group called FurFriendsRescue that helped and rescued stray dogs</li>
                             <li>Recreated the popular game minesweeper using basic programming languages</li>
                         </ul>
@@ -53,12 +53,12 @@
                         At the beginning of my computer programming experience, I started out learning programming skills and languages from online courses created by professors from many prestigious colleges like Princeton University and the University of Michigan. From these courses I learned a variety of things ranging from basic programming skills to website design and development to complex algorithms or data structures used in computer science. These courses include:                  
                     </p>
                     <ul>
-                        <li><a href="https://www.coursera.org/specializations/python?">Python for Everybody</a></li>
-                        <li><a href="https://www.coursera.org/specializations/web-design?">Web Design for Everbody: Basics of Web Developement and Coding Specialization</a></li>
-                        <li><a href="https://www.coursera.org/learn/cs-programming-java?">Computer Science: Programming with a Purpose</a></li>
-                        <li><a href="https://www.coursera.org/learn/cs-algorithms-theory-machines">Computer Science: Algorithms, Theory, and Machines</a></li>
-                        <li><a href="https://www.coursera.org/learn/algorithms-part1">Algorithms, Part I</a></li>
-                        <li><a href="https://www.coursera.org/learn/algorithms-part2">Algorithms, Part II</a></li>
+                        <li><a href="https://www.coursera.org/specializations/python?">Python for Everybody – University of Michigan</a></li>
+                        <li><a href="https://www.coursera.org/specializations/web-design?">Web Design for Everybody: Basics of Web Development & Coding – University of Michigan</a></li>
+                        <li><a href="https://www.coursera.org/learn/cs-programming-java?">Computer Science: Programming with a Purpose – Princeton University</a></li>
+                        <li><a href="https://www.coursera.org/learn/cs-algorithms-theory-machines">Computer Science: Algorithms, Theory, and Machines – Princeton University</a></li>
+                        <li><a href="https://www.coursera.org/learn/algorithms-part1">Algorithms, Part I – Princeton University</a></li>
+                        <li><a href="https://www.coursera.org/learn/algorithms-part2">Algorithms, Part II – Princeton University</a></li>
                     </ul>
                     <p class="projectDescription">
                         All these courses were especially well made, and I am very thankful to have been fortunate enough to access wonderful resources like these. I was able to use the skills I learned from these courses constantly throughout my life in ways such as making this website or when practicing for USACO.                    
@@ -68,14 +68,14 @@
                     <img class="projectImage" src='../assets/images/projects/Drawing.png' />
                     <p class="projectTitle">Art Contest Awards</p>
                     <p class="projectDescription">
-                        One of my greatest passions since a very young age has always been visual art. I have been taking art lessons at YongLi Art Studio since 1st grade and have always loved sketching, painting, and even just doodling. One of the great things about my art teacher is that she taught us a variety of art skills from acrylic to watercolor to sketching. She would also encourage us to submit our pieces into art competitions, especially at an art competition she supported called the CTEF Art Contest. I have submitted many art pieces there and have won several awards. For example, I was awarded with the Award of Excellence in both 2015 and 2016 but also achieved 3rd place in the 2019 CTEF competition. Outside of CTEF competitions, I also once submitted an art piece to my elementary school art contest called the Smith Reflections Contest and won Honorable Mention.                    
+                        One of my greatest passions since a very young age has always been visual art. I have been taking art lessons at YongLi Art Studio since 1st grade and have always loved sketching, painting, and even just doodling. One of the great things about my art teacher is that she taught us a variety of art skills from acrylic to watercolor to sketching. She would also encourage us to submit our pieces into art competitions, especially at a charity art competition she supported called the CTEF Art Contest, or the Chinese Tomorrow Education Foundation (<a href="https://www.ctef.org/involve-art-contest?adlt=strict&toWww=1&redig=FA013BA56965446EB6657626AB094FB7">CTEF</a>) that supported education in rural parts of China. I have submitted many art pieces there and have won several awards. For example, I was awarded with the Award of Excellence in both 2015 and 2016 but also achieved 3rd place in the 2019 CTEF competition. Outside of CTEF competitions, I also once submitted an art piece to my elementary school art contest called the Smith Reflections Contest and won Honorable Mention.                    
                     </p>
                 </div>
                 <div id="project5" class="projectFrame" v-if="showProject5">
                     <img class="projectImage" src='../assets/images/projects/garageSaleflat.jpg' />
                     <p class="projectTitle">Volunteering Awards</p>
                     <p class="projectDescription">
-                        Not only do I love things like Computer Science and Art, but I also love helping others, which is one of the reasons I started volunteering. I loved being able to help other people and animals. I volunteered at numerous places and communities, but the group that I volunteer the most is Little Masters Club which is a group of other Chinese immigrant families that live in our area. In the club, I participate in their numerous programs, including:                        <ul>
+                        Not only do I love things like Computer Science and Art, but I also love helping others, which is one of the reasons I started volunteering. I loved being able to help other people and animals. I volunteered at numerous places and communities, but the group that I volunteer the most is the Little Masters Club (<a href="https://littlemastersclub.org/?adlt=strict&toWww=1&redig=2D50177E29DC47A49092C403D5C95380">LMC</a>) which is a group of other Chinese immigrant families that live in our area. In the club, I participate in their numerous programs, including:<ul>
                         <li>Online Reading where I taught weekly English to children in China weekly.</li>
                         <li>FurFriends Rescue, a group that helps stray animals find homes and raises money. There I helped volunteer in their numerous events but also used my expertise to help them make their website.</li>
                         <li>Shanxi Education Support where I went to a small rural village in China and taught English and science as an Assistant Teacher.</li>
@@ -122,6 +122,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
+a {
+    text-decoration: none;
+}
+
 .projectsContainer {
     width: 100%;
     @extend .d-flex;

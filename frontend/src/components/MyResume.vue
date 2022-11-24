@@ -3,29 +3,29 @@
         <h3>My Resume</h3>
         <p>Here is a small portion of my resume. If you would like to look at the rest of the rest of my resume, click on <a href="https://1drv.ms/w/s!Aio0qlo3Mk0KgYBxaxcdtDX5nRs5Rg?e=pGEe2e">this link</a></p>
         <div class="textRow">
-            <div class="textCol" style="width: 55%;">
+            <div class="textCol">
                 <h4>Academic Education</h4>
                 <p>Grades 6-8: Inglewood Middle School, Sammamish, WA</p>
                 <p>Grades K-5: Samantha Smith Elementary School, Sammamish, WA</p>
                 <h4>Online Courses</h4>
-                <p>Algorithms, Part I – Princeton University </p>
-                <p>Algorithms, Part II – Princeton University </p>
-                <p>Computer Science: Programming with a Purpose – Princeton University</p>
-                <p>Computer Science: Algorithms, Theory, and Machines – Princeton University </p>
-                <p>Web Design for Everybody: Basics of Web Development & Coding - University of Michigan</p>
-                <p>Python for Everybody – University of Michigan</p>
+                <p>2021 – Jun-Sep <a href="https://www.coursera.org/learn/algorithms-part1">Algorithms, Part I – Princeton University</a></p>
+                <p>2021 – Feb-May <a href="https://www.coursera.org/learn/algorithms-part2">Algorithms, Part II – Princeton University</a></p>
+                <p>2020 – Sep-Nov <a href="https://www.coursera.org/learn/cs-programming-java?">Computer Science: Programming with a Purpose – Princeton University</a></p>
+                <p>2020 – Aug-Sep <a href="https://www.coursera.org/learn/cs-algorithms-theory-machines">Computer Science: Algorithms, Theory, and Machines – Princeton University</a></p>
+                <p>2020 – Jul-Aug <a href="https://www.coursera.org/specializations/web-design?">Web Design for Everybody: Basics of Web Development & Coding – University of Michigan</a></p>
+                <p>2020 – Jun-Jul <a href="https://www.coursera.org/specializations/python?">Python for Everybody – University of Michigan</a></p>
             </div>
-            <div class="textCol" style="width: 40%;">
+            <div class="textCol">
                 <h4>Technological Achievements</h4>
-                <p>2022 – Aug	        Conducted a 10-day Learning Session to 16 students between 8-12 years old in Little Masters Youth Community Club, teaching Java programming language</p>
-                <p>2021 – Feb		    Qualified for USA Computing Olympiad Bronze Division (USACO) </p>
+                <p>2022 – Aug	        Conducted a 10-day Learning Session to 16 students between 8-12 years old in Little Masters Summer School (<a href="https://littlemastersclub.org/?adlt=strict&toWww=1&redig=2D50177E29DC47A49092C403D5C95380">LMC</a>), teaching Java programming language</p>
+                <p>2021 – Feb		    Qualified for USA Computing Olympiad Bronze Division (<a  href="http://www.usaco.org/index.php">USACO</a>) </p>
                 <p>2020 – Jun-Present	Founder & President: Turtle Master Computer Science Club:</p>
                 <ul>
                     <li>Led students studying computer science</li>
                     <li>Learned web programming including HTML5 and JavaScript</li>
                     <li>Learned the Java programming language</li>
                     <li>Designed and programmed Minesweeper game through coding</li>
-                    <li>Designed and programmed website covidhub.io to spread knowledge and information about the COVID-19 pandemic</li>
+                    <li>Designed and programmed website <a href="covidhub.io">covidhub.io</a> to spread knowledge and information about the COVID-19 pandemic</li>
                 </ul>
             </div>
         </div>
@@ -42,6 +42,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
+a {
+    text-decoration: none;
+}
 h3 {
     font-family: 'Nunito';
     font-style: normal;
@@ -80,7 +83,7 @@ h4 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 68px 88px;
+    padding: 68px 50px;
     gap: 32px;
     background: #FFFFFF;
     flex: none;
@@ -91,7 +94,6 @@ h4 {
 .textRow {
     display: flex;
     @extend .row;
-    margin: 5px 20px;
 }
 .textCol {
     @extend .col;
@@ -107,7 +109,6 @@ p {
     font-weight: 400;
     font-size: 20px;
     line-height: 21px;
-    color: #222222;
     flex: none;
     flex-grow: 0;
 }
