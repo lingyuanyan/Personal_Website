@@ -105,7 +105,7 @@
         <div class="popUp" v-show="showPopUp4" @click.self="showPopUp4 = false">
             <div class="card">
                 <div class="xWrapper">
-                    <img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">
+                    <img class="popUpImg" src="../assets/images/gallery/GuitarThinn.jpg" alt="">
                     <div class="yWrapper">
                         <h3>Playing the Guitar</h3>
                         <p>I started playing music with the recorder in fourth grade and there I discovered my passion for music. Since then, I have tried a variety of instruments before finally moving onto my favorite instrument which is the guitar. Currently I play a classical guitar and enjoy playing many of my favorite songs there such as Jesu Joy of Man's Desiring and more.</p>

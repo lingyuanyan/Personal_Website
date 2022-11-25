@@ -15,7 +15,7 @@
             <div class="photoRow">
                 <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/goldengatePic.jpg"/></div>
                 <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/Epcot.jpg"/></div>
-                <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/JFK_park.jpg"/></div>
+                <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/Cooking.jpg"/></div>
                 <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/Legos.jpg"/></div>
             </div>
             <div class="photoRow">
@@ -26,7 +26,7 @@
             </div>
             <p class="photoSubTitle">Arts & Crafts</p>
             <div class="photoRow">
-                <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/Cooking.jpg"/></div>
+                <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/GuitarHappy.jpg"/></div>
                 <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/cuttingBoard.jpg"/></div>
                 <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/makingSoup.jpg"/></div>
                 <div class="photoCol"><img class="photoImage" src="../assets/images/gallery/masonBeeHouse.jpg"/></div>
