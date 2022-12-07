@@ -75,7 +75,7 @@
                     </video>                    
                     <div class="yWrapper">
                         <h3>Coding</h3>
-                        <p>I started coding in my fourth grade and was introduced to Computer Sciecne through several really wonderful courses that you can read about in my acheivements section. The video to the left is a demostration of one my projects, which is a minesweeper game I coded up with the other members of my TurtleMasters Club</p>
+                        <p>I started coding in my fourth grade and was introduced to Computer Sciecne through several really wonderful courses that you can read about in my acheivements section. The video to the left is a demostration of one my projects, which is a minesweeper game I coded up with the other members of my TurtleMasters Club.</p>
                     </div>
                 </div>
             </div>
@@ -108,7 +108,7 @@
                     <img class="popUpImg" src="../assets/images/gallery/GuitarThinn.jpg" alt="">
                     <div class="yWrapper">
                         <h3>Playing the Guitar</h3>
-                        <p>I started playing music with the recorder in fourth grade and there I discovered my passion for music. Since then, I have tried a variety of instruments before finally moving onto my favorite instrument which is the guitar. Currently I play a classical guitar and enjoy playing many of my favorite songs there such as Jesu Joy of Man's Desiring and more.</p>
+                        <p>I began playing music with the recorder in fourth grade and there I discovered my passion for music. Since then, I have tried a variety of instruments before finally moving onto my favorite instrument which is the guitar. Currently I play a classical guitar and enjoy playing many of my favorite songs there such as Jesu Joy of Man's Desiring and more.</p>
                     </div>
                 </div>
             </div>
@@ -119,7 +119,7 @@
                     <img class="popUpImg" src="../assets/images/gallery/drawing.jpg" alt="">
                     <div class="yWrapper">
                         <h3>Visual Arts</h3>
-                        <p>I have been studying Visual Arts for the last 7 years with a really wonderful teacher at a place called YongLi Studio. There I developed my skills and passions in a variety of styles and forms of art from acrylic to water color to pencil sketches.</p>
+                        <p>I have been studying Visual Arts for the last 7 years with a really wonderful teacher at YongLi Studio. There I developed my skills and passions in a variety of styles and forms of art from acrylic to water color to pencil sketches.</p>
                     </div>
                 </div>
             </div>
@@ -131,7 +131,7 @@
                     <!--<img class="popUpImg" src="../assets/images/gallery/Biking.jpg" alt="">-->
                     <div class="yWrapper">
                         <h3>Cross Country</h3>
-                        <p>I started running since I needed to do a sport and for my health, but then I realized that I really enjoyed it. After that, I ran everyday in the morning during the summer and participated in Cross Country in my school. I loved running with my friends and getting faster and faster each time.</p>
+                        <p>I recently began running and I've come to really enjoy it. I ran everyday in the morning during the summer and participated in Cross Country in my school. I love running with my friends and getting faster and faster each time.</p>
                     </div>
                 </div>
             </div>
@@ -142,7 +142,7 @@
                     <img class="popUpImg" src="../assets/images/gallery/skiing.jpg" alt="">
                     <div class="yWrapper">
                         <h3>Skiing</h3>
-                        <p>I started skiing in my fourth grade and have continued to learn and enjoy it ever since. Every year, I attend the Issaquah Ski and SnowBoard School, and has been there every year except during the pandemic. I am currently able to ski on the black slopes.</p>
+                        <p>Every year since fourth grade, I have attend the Issaquah Ski and SnowBoard School. and have been there every year. I am currently able to ski on the black slopes.</p>
                     </div>
                 </div>
             </div>

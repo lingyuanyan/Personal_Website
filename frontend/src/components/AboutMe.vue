@@ -6,7 +6,7 @@
         <div class="textContainer">
             <p class="textHeader">My name is Lingyuan Yan. Welcome to my Website!</p>
             <p class="quote">"Be the change you wish to see in the world" - Mahatma Gandhi</p>
-            <p class="textDetails">I am currently an 8th grader that lives in Washington State. Not only am I a student that loves learning, I am also a computer programmer, a passionate guitarist, and someone who loves sports.</p>
+            <p class="textDetails">I am currently in 8th grade and I live in Washington State. Not only am I a student that loves learning, I'm also a computer programmer, a passionate guitarist, and someone who loves sports.</p>
             
         </div>
         <div>       
