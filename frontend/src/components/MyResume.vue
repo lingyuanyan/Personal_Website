@@ -25,7 +25,7 @@
                     <li>Learned web programming including HTML5 and JavaScript</li>
                     <li>Learned the Java programming language</li>
                     <li>Designed and programmed Minesweeper game through coding</li>
-                    <li>Designed and programmed website <a href="covidhub.io">covidhub.io</a> to spread knowledge and information about the COVID-19 pandemic</li>
+                    <li>Designed and programmed website <a href="http://covidhub.io/">covidhub.io</a> to spread knowledge and information about the COVID-19 pandemic</li>
                 </ul>
             </div>
         </div>
