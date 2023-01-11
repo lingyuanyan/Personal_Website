@@ -1,7 +1,7 @@
 <template>
     <div id="MyResume" class="backContainer">
         <h3>Academics</h3>
-        <p>Here is a small portion of my academic backgroud. If you would like to learn more, click on this <a href="https://1drv.ms/w/s!Aio0qlo3Mk0KgYBxaxcdtDX5nRs5Rg?e=pGEe2e">link</a>.</p>
+        <p>Click on this link to access my <a href="https://1drv.ms/w/s!Aio0qlo3Mk0KgYBxaxcdtDX5nRs5Rg?e=4ecJvh">Resume</a></p>
         <div class="textRow">
             <div class="textCol">
                 <h4>Academic Education</h4>
